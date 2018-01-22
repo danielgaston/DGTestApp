@@ -2,7 +2,6 @@
 //  AppDelegate.m
 //  TestApp
 //
-//  Created by Daniel Iglesias on 22/01/2018.
 //  Copyright © 2018 DG. All rights reserved.
 //
 
@@ -17,6 +16,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [self initializeThemeManager];
+    
     return YES;
 }
 
@@ -49,6 +51,72 @@
     [self saveContext];
 }
 
+#pragma mark - Initialization Methods
+
+- (void)initializeThemeManager
+{
+    [PREThemeManager sharedInstance];
+}
+
+#pragma mark - Helper Methods (Setup)
+
+- (void)setupUI
+{
+    self.window = [[VOIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.tintColor = [VOCXColor primaryColor];
+    [self.window setBackgroundColor:[UIColor whiteColor]];
+    [self.window makeKeyAndVisible];
+    
+    // setup navigation bar Appearance
+    UINavigationBar *navigationBarAppearance = [UINavigationBar appearance];
+    [navigationBarAppearance setBarTintColor:[VOCXColor titleBarColor]];
+    [navigationBarAppearance setTitleTextAttributes:@{NSFontAttributeName: [UIFont fontWithName:@"OpenSans" size:0]}];
+    [navigationBarAppearance setBarStyle:UIBarStyleBlack];
+    [navigationBarAppearance setTintColor:[UIColor whiteColor]];
+    [navigationBarAppearance setTranslucent:NO];
+    
+    UIBarButtonItem *barButtonItemAppearance = [UIBarButtonItem appearance];
+    [barButtonItemAppearance setTitleTextAttributes: @{NSFontAttributeName: [VOCXFont vipBarButtonFontLight]} forState:UIControlStateNormal];
+    [barButtonItemAppearance setTintColor:[UIColor whiteColor]];
+    
+    [[UISegmentedControl appearance] setTitleTextAttributes:@{NSFontAttributeName: [VOCXFont vipRegularFontWithSize:12]} forState:UIControlStateNormal];
+    
+    [[UITextField appearanceWhenContainedInInstancesOfClasses:@[[UISearchBar class]]] setTextColor:[UIColor darkGrayColor]];
+    [[UITextField appearanceWhenContainedInInstancesOfClasses:@[[VOIBasicSearchBar class]]] setTextColor:[UIColor darkGrayColor]];
+    [[UITextField appearanceWhenContainedInInstancesOfClasses:@[[VOIOrbitDashboardNavigationBarSearchBar class]]] setBackgroundColor:[UIColor colorWithRed:212./255. green:211./255. blue:233./255. alpha:1.]];
+    
+    [UITabBarItem.appearance setTitleTextAttributes:@{NSForegroundColorAttributeName : [[UIColor whiteColor] colorWithAlphaComponent:0.6],NSForegroundColorAttributeName : [VOCXFont vipRegularFontWithSize:16]} forState:UIControlStateNormal];
+    [UITabBarItem.appearance setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor]} forState:UIControlStateSelected];
+}
+
+- (void)setupUIForUse:(BOOL)firstTime
+{
+    if ([NSManagedObjectContext defaultContext] == nil)
+        return;
+    
+    [self setupCrashLoggerUserName];
+    
+    if (self.window.rootViewController)
+        [self.window.rootViewController dismissViewControllerAnimated:firstTime completion:nil];
+    
+    if (self.isiPad) {
+        VOIMainIpadContainerController *container = [VOIMainIpadContainerController viewController];
+        [container setupMainViewController:[UINavigationController.alloc initWithRootViewController:[VOIMainIpadViewController viewController]]];
+        
+        self.window.rootViewController = container;
+        [self.window makeKeyAndVisible];
+    } else {
+        VOIMainIphoneViewController *compactDashboard = [VOIMainIphoneViewController viewController];
+        self.window.rootViewController = compactDashboard;
+        [self.window makeKeyAndVisible];
+    }
+}
+
+- (void)cleanMainAppWindow
+{
+    [self.window.rootViewController dismissViewControllerAnimated:NO completion:nil];
+    self.window.rootViewController = nil;
+}
 
 #pragma mark - Core Data stack
 

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Helvetica.ttc">
+            <string>Helvetica</string>
+        </array>
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="72" id="KGk-i7-Jjw" customClass="PREMainActionTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="72"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="71.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Approach alternate Quote Carrier if required" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oHl-5J-7EJ">
+                        <rect key="frame" x="23" y="11" width="211" height="34.5"/>
+                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="668904" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="azc-un-Gak">
+                        <rect key="frame" x="244" y="11" width="53" height="16.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="53" id="vTZ-EX-7S3"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="John Smith, 89977764" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kbg-N2-KNm">
+                        <rect key="frame" x="23" y="44" width="142" height="17"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4w2-bY-wkl">
+                        <rect key="frame" x="262" y="29.5" width="50" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="5YE-rd-eek"/>
+                            <constraint firstAttribute="height" constant="32" id="Vtf-Ef-me0"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="imageView.contentMode">
+                                <integer key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <action selector="actionButtonClick:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="cfP-Rz-Nex"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="topMargin" secondItem="oHl-5J-7EJ" secondAttribute="top" id="61d-i7-Jas"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="4w2-bY-wkl" secondAttribute="trailing" constant="-8" id="IUA-eA-kQ9"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="azc-un-Gak" secondAttribute="trailing" constant="7" id="RN0-9g-1AE"/>
+                    <constraint firstItem="4w2-bY-wkl" firstAttribute="top" secondItem="azc-un-Gak" secondAttribute="bottom" constant="2" id="VJ7-7i-4LZ"/>
+                    <constraint firstItem="azc-un-Gak" firstAttribute="top" secondItem="oHl-5J-7EJ" secondAttribute="top" id="Z7h-XH-ICh"/>
+                    <constraint firstItem="oHl-5J-7EJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="7" id="hLa-lw-1OW"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Kbg-N2-KNm" secondAttribute="bottom" id="l2P-eg-ng2"/>
+                    <constraint firstItem="Kbg-N2-KNm" firstAttribute="leading" secondItem="oHl-5J-7EJ" secondAttribute="leading" id="pav-M5-ap5"/>
+                    <constraint firstItem="azc-un-Gak" firstAttribute="leading" secondItem="oHl-5J-7EJ" secondAttribute="trailing" constant="10" id="xyn-XZ-FVC"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="actionButton" destination="4w2-bY-wkl" id="KK3-8n-tzx"/>
+                <outlet property="idLabel" destination="azc-un-Gak" id="KfS-ks-1CC"/>
+                <outlet property="subtitleLabel" destination="Kbg-N2-KNm" id="dFr-NS-hcb"/>
+                <outlet property="titleLabel" destination="oHl-5J-7EJ" id="uLq-1i-fGL"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

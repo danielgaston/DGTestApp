@@ -16,6 +16,220 @@
 		6724506220162E6200772FD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724506120162E6200772FD4 /* main.m */; };
 		6724506C20162E6200772FD4 /* TestAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724506B20162E6200772FD4 /* TestAppTests.m */; };
 		6724507720162E6200772FD4 /* TestAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724507620162E6200772FD4 /* TestAppUITests.m */; };
+		6724512620162F4400772FD4 /* NSInvocation+Copy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724508720162F4400772FD4 /* NSInvocation+Copy.m */; };
+		6724512720162F4400772FD4 /* PREAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724508920162F4400772FD4 /* PREAppearance.m */; };
+		6724512820162F4400772FD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6724508B20162F4400772FD4 /* Assets.xcassets */; };
+		6724512920162F4400772FD4 /* CordantSpirit_default.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6724508D20162F4400772FD4 /* CordantSpirit_default.xcassets */; };
+		6724512A20162F4400772FD4 /* Corporate_default.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6724508F20162F4400772FD4 /* Corporate_default.xcassets */; };
+		6724512B20162F4400772FD4 /* Corporate_th_black.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6724509020162F4400772FD4 /* Corporate_th_black.xcassets */; };
+		6724512C20162F4400772FD4 /* Corporate_th_white.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6724509120162F4400772FD4 /* Corporate_th_white.xcassets */; };
+		6724512D20162F4400772FD4 /* Corporate_th_white_and_matisse_blue.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6724509220162F4400772FD4 /* Corporate_th_white_and_matisse_blue.xcassets */; };
+		6724512E20162F4400772FD4 /* DowJones_default.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6724509420162F4400772FD4 /* DowJones_default.xcassets */; };
+		6724512F20162F4400772FD4 /* DowJones_th_black.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6724509520162F4400772FD4 /* DowJones_th_black.xcassets */; };
+		6724513020162F4400772FD4 /* DowJones_th_white_and_firefly_blue.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6724509620162F4400772FD4 /* DowJones_th_white_and_firefly_blue.xcassets */; };
+		6724513120162F4400772FD4 /* Helvetia_default.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6724509820162F4400772FD4 /* Helvetia_default.xcassets */; };
+		6724513220162F4400772FD4 /* Strabag_default.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6724509A20162F4400772FD4 /* Strabag_default.xcassets */; };
+		6724513320162F4400772FD4 /* WellCare_default.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6724509C20162F4400772FD4 /* WellCare_default.xcassets */; };
+		6724513420162F4400772FD4 /* PREColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724509F20162F4400772FD4 /* PREColor.m */; };
+		6724513520162F4400772FD4 /* PREParentBaseAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 672450A220162F4400772FD4 /* PREParentBaseAlertViewController.m */; };
+		6724513620162F4400772FD4 /* PREParentBaseCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 672450A520162F4400772FD4 /* PREParentBaseCollectionReusableView.m */; };
+		6724513720162F4400772FD4 /* PREParentBaseCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 672450A620162F4400772FD4 /* PREParentBaseCollectionReusableView.xib */; };
+		6724513820162F4400772FD4 /* PREParentBaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 672450A820162F4400772FD4 /* PREParentBaseCollectionViewCell.m */; };
+		6724513920162F4400772FD4 /* PREParentBaseCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 672450A920162F4400772FD4 /* PREParentBaseCollectionViewCell.xib */; };
+		6724513A20162F4400772FD4 /* PREParentBaseImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 672450AB20162F4400772FD4 /* PREParentBaseImagePickerController.m */; };
+		6724513B20162F4400772FD4 /* PREParentBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 672450AD20162F4400772FD4 /* PREParentBaseNavigationController.m */; };
+		6724513C20162F4400772FD4 /* PREParentBaseSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 672450AF20162F4400772FD4 /* PREParentBaseSplitViewController.m */; };
+		6724513D20162F4400772FD4 /* PREParentBaseSplitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 672450B020162F4400772FD4 /* PREParentBaseSplitViewController.xib */; };
+		6724513E20162F4400772FD4 /* PREParentBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 672450B220162F4400772FD4 /* PREParentBaseTableViewCell.m */; };
+		6724513F20162F4400772FD4 /* PREParentBaseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 672450B320162F4400772FD4 /* PREParentBaseTableViewCell.xib */; };
+		6724514020162F4400772FD4 /* PREParentBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 672450B520162F4400772FD4 /* PREParentBaseTableViewController.m */; };
+		6724514120162F4400772FD4 /* PREParentBaseTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 672450B620162F4400772FD4 /* PREParentBaseTableViewController.xib */; };
+		6724514220162F4400772FD4 /* PREParentBaseTableViewFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 672450B820162F4400772FD4 /* PREParentBaseTableViewFooterView.m */; };
+		6724514320162F4400772FD4 /* PREParentBaseTableViewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 672450BA20162F4400772FD4 /* PREParentBaseTableViewHeaderView.m */; };
+		6724514420162F4400772FD4 /* PREParentBaseTableViewSectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 672450BC20162F4400772FD4 /* PREParentBaseTableViewSectionView.m */; };
+		6724514520162F4400772FD4 /* PREParentBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 672450BE20162F4400772FD4 /* PREParentBaseViewController.m */; };
+		6724514620162F4400772FD4 /* PREThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 672450C020162F4400772FD4 /* PREThemeManager.m */; };
+		6724514720162F4400772FD4 /* PREThemeContentsFactoryCorporateBlack.m in Sources */ = {isa = PBXBuildFile; fileRef = 672450C520162F4400772FD4 /* PREThemeContentsFactoryCorporateBlack.m */; };
+		6724514820162F4400772FD4 /* PREThemeContentsFactoryCorporateWhite.m in Sources */ = {isa = PBXBuildFile; fileRef = 672450C720162F4400772FD4 /* PREThemeContentsFactoryCorporateWhite.m */; };
+		6724514920162F4400772FD4 /* PREThemeContentsFactoryCorporateWhiteAndMatisseBlue.m in Sources */ = {isa = PBXBuildFile; fileRef = 672450C920162F4400772FD4 /* PREThemeContentsFactoryCorporateWhiteAndMatisseBlue.m */; };
+		6724514A20162F4400772FD4 /* PREThemeContentsFactoryDowJonesBlack.m in Sources */ = {isa = PBXBuildFile; fileRef = 672450CB20162F4400772FD4 /* PREThemeContentsFactoryDowJonesBlack.m */; };
+		6724514B20162F4400772FD4 /* PREThemeContentsFactoryDowJonesWhiteAndFireflyBlue.m in Sources */ = {isa = PBXBuildFile; fileRef = 672450CD20162F4400772FD4 /* PREThemeContentsFactoryDowJonesWhiteAndFireflyBlue.m */; };
+		6724514C20162F4500772FD4 /* PREThemeSwitchSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 672450D220162F4400772FD4 /* PREThemeSwitchSettings.m */; };
+		6724514D20162F4500772FD4 /* PREThemeButtonSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 672450D520162F4400772FD4 /* PREThemeButtonSettings.m */; };
+		6724514E20162F4500772FD4 /* PREThemeNavigationBarSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 672450D820162F4400772FD4 /* PREThemeNavigationBarSettings.m */; };
+		6724514F20162F4500772FD4 /* PREThemePageControlSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 672450DB20162F4400772FD4 /* PREThemePageControlSettings.m */; };
+		6724515020162F4500772FD4 /* PREThemeSegmentedControlSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 672450DE20162F4400772FD4 /* PREThemeSegmentedControlSettings.m */; };
+		6724515120162F4500772FD4 /* PREThemeTabBarSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 672450E120162F4400772FD4 /* PREThemeTabBarSettings.m */; };
+		6724515220162F4500772FD4 /* PREThemeMainViewSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 672450E520162F4400772FD4 /* PREThemeMainViewSettings.m */; };
+		6724515320162F4500772FD4 /* PREThemeMainViewSettingsBlack.m in Sources */ = {isa = PBXBuildFile; fileRef = 672450E720162F4400772FD4 /* PREThemeMainViewSettingsBlack.m */; };
+		6724515420162F4500772FD4 /* PREThemeMainViewSettingsBlackDJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 672450E920162F4400772FD4 /* PREThemeMainViewSettingsBlackDJ.m */; };
+		6724515520162F4500772FD4 /* PREThemeMainViewSettingsWhite.m in Sources */ = {isa = PBXBuildFile; fileRef = 672450EB20162F4400772FD4 /* PREThemeMainViewSettingsWhite.m */; };
+		6724515620162F4500772FD4 /* PREThemeMainViewSettingsWhiteAndBlueFirefly.m in Sources */ = {isa = PBXBuildFile; fileRef = 672450ED20162F4400772FD4 /* PREThemeMainViewSettingsWhiteAndBlueFirefly.m */; };
+		6724515720162F4500772FD4 /* PREThemeMainViewSettingsWhiteAndBlueMatisse.m in Sources */ = {isa = PBXBuildFile; fileRef = 672450EF20162F4400772FD4 /* PREThemeMainViewSettingsWhiteAndBlueMatisse.m */; };
+		6724515820162F4500772FD4 /* PREThemeCircleViewSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 672450F220162F4400772FD4 /* PREThemeCircleViewSettings.m */; };
+		6724515920162F4500772FD4 /* PREThemeCircleViewSettingsBlueCerulean.m in Sources */ = {isa = PBXBuildFile; fileRef = 672450F420162F4400772FD4 /* PREThemeCircleViewSettingsBlueCerulean.m */; };
+		6724515A20162F4500772FD4 /* PREThemeCircleViewSettingsBlueMatisse.m in Sources */ = {isa = PBXBuildFile; fileRef = 672450F620162F4400772FD4 /* PREThemeCircleViewSettingsBlueMatisse.m */; };
+		6724515B20162F4500772FD4 /* PREThemeCircleViewSettingsGray.m in Sources */ = {isa = PBXBuildFile; fileRef = 672450F820162F4400772FD4 /* PREThemeCircleViewSettingsGray.m */; };
+		6724515C20162F4500772FD4 /* PREThemeViewSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 672450FA20162F4400772FD4 /* PREThemeViewSettings.m */; };
+		6724515D20162F4500772FD4 /* PREThemeToastViewSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 672450FD20162F4400772FD4 /* PREThemeToastViewSettings.m */; };
+		6724515E20162F4500772FD4 /* PREThemeToastViewSettingsWhite.m in Sources */ = {isa = PBXBuildFile; fileRef = 672450FF20162F4400772FD4 /* PREThemeToastViewSettingsWhite.m */; };
+		6724515F20162F4500772FD4 /* PREThemeCalendarViewSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724510220162F4400772FD4 /* PREThemeCalendarViewSettings.m */; };
+		6724516020162F4500772FD4 /* PREThemeCalendarViewSettingsBlackAndBlueCerulean.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724510420162F4400772FD4 /* PREThemeCalendarViewSettingsBlackAndBlueCerulean.m */; };
+		6724516120162F4500772FD4 /* PREThemeCalendarViewSettingsBlackAndBlueViking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724510620162F4400772FD4 /* PREThemeCalendarViewSettingsBlackAndBlueViking.m */; };
+		6724516220162F4500772FD4 /* PREThemeCalendarViewSettingsWhiteAndBlueCerulean.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724510820162F4400772FD4 /* PREThemeCalendarViewSettingsWhiteAndBlueCerulean.m */; };
+		6724516320162F4500772FD4 /* PREThemeCalendarViewSettingsWhiteAndBlueMatisse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724510A20162F4400772FD4 /* PREThemeCalendarViewSettingsWhiteAndBlueMatisse.m */; };
+		6724516420162F4500772FD4 /* PREThemeCalendarViewSettingsWhiteAndGreenVidaLoca.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724510C20162F4400772FD4 /* PREThemeCalendarViewSettingsWhiteAndGreenVidaLoca.m */; };
+		6724516520162F4500772FD4 /* PREThemeExclusiveTargetSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724510F20162F4400772FD4 /* PREThemeExclusiveTargetSettings.m */; };
+		6724516620162F4500772FD4 /* PREThemeExclusiveTargetSettingsDowJones.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724511120162F4400772FD4 /* PREThemeExclusiveTargetSettingsDowJones.m */; };
+		6724516720162F4500772FD4 /* PREThemeModeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724511520162F4400772FD4 /* PREThemeModeHelper.m */; };
+		6724516820162F4500772FD4 /* PREThemeStoreHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724511720162F4400772FD4 /* PREThemeStoreHelper.m */; };
+		6724516920162F4500772FD4 /* PREThemeStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724511A20162F4400772FD4 /* PREThemeStore.m */; };
+		6724516A20162F4500772FD4 /* PREThemeStoreCorporate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724511C20162F4400772FD4 /* PREThemeStoreCorporate.m */; };
+		6724516B20162F4500772FD4 /* PREThemeStoreDowJones.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724511E20162F4400772FD4 /* PREThemeStoreDowJones.m */; };
+		6724516C20162F4500772FD4 /* PRETheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724512120162F4400772FD4 /* PRETheme.m */; };
+		6724516D20162F4500772FD4 /* PREThemeCorporate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724512320162F4400772FD4 /* PREThemeCorporate.m */; };
+		6724516E20162F4500772FD4 /* PREThemeDowJones.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724512520162F4400772FD4 /* PREThemeDowJones.m */; };
+		672452C020162F6900772FD4 /* PREAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724517320162F6700772FD4 /* PREAction.m */; };
+		672452C120162F6900772FD4 /* PREActionWorkplace.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724517520162F6700772FD4 /* PREActionWorkplace.m */; };
+		672452C220162F6900772FD4 /* PREAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724517720162F6700772FD4 /* PREAttribute.m */; };
+		672452C320162F6900772FD4 /* PREBACommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724517920162F6700772FD4 /* PREBACommand.m */; };
+		672452C420162F6900772FD4 /* PREBAObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724517B20162F6700772FD4 /* PREBAObject.m */; };
+		672452C520162F6900772FD4 /* PRECommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724517D20162F6700772FD4 /* PRECommand.m */; };
+		672452C620162F6900772FD4 /* PREField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724517F20162F6700772FD4 /* PREField.m */; };
+		672452C720162F6900772FD4 /* PREForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724518120162F6700772FD4 /* PREForm.m */; };
+		672452C820162F6900772FD4 /* PREGoal.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724518320162F6700772FD4 /* PREGoal.m */; };
+		672452C920162F6900772FD4 /* PREGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724518520162F6700772FD4 /* PREGroup.m */; };
+		672452CA20162F6900772FD4 /* PREInitialData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724518720162F6700772FD4 /* PREInitialData.m */; };
+		672452CB20162F6900772FD4 /* PREItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724518920162F6700772FD4 /* PREItem.m */; };
+		672452CC20162F6900772FD4 /* PREItemTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724518B20162F6700772FD4 /* PREItemTemplate.m */; };
+		672452CD20162F6900772FD4 /* PREMainAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724518D20162F6700772FD4 /* PREMainAction.m */; };
+		672452CE20162F6900772FD4 /* PREMainActionGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724518F20162F6700772FD4 /* PREMainActionGroup.m */; };
+		672452CF20162F6900772FD4 /* PREMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724519120162F6700772FD4 /* PREMenu.m */; };
+		672452D020162F6900772FD4 /* PREValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724519320162F6700772FD4 /* PREValidator.m */; };
+		672452D120162F6900772FD4 /* PREWorkplace.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724519520162F6700772FD4 /* PREWorkplace.m */; };
+		672452D220162F6900772FD4 /* PREWorkplaceCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724519720162F6700772FD4 /* PREWorkplaceCommand.m */; };
+		672452D320162F6900772FD4 /* LocalAppsAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6724519820162F6700772FD4 /* LocalAppsAssets.xcassets */; };
+		672452D420162F6900772FD4 /* PREActionDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724519A20162F6700772FD4 /* PREActionDetailsViewController.m */; };
+		672452D520162F6900772FD4 /* PRECommandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724519C20162F6700772FD4 /* PRECommandViewController.m */; };
+		672452D620162F6900772FD4 /* PREComplianceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724519E20162F6700772FD4 /* PREComplianceTableViewCell.m */; };
+		672452D720162F6900772FD4 /* PREComplianceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6724519F20162F6700772FD4 /* PREComplianceTableViewCell.xib */; };
+		672452D820162F6900772FD4 /* PREComplianceTableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 672451A120162F6700772FD4 /* PREComplianceTableViewViewController.m */; };
+		672452D920162F6900772FD4 /* PREComplianceTableViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 672451A220162F6700772FD4 /* PREComplianceTableViewViewController.xib */; };
+		672452DA20162F6900772FD4 /* PREGoalContentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 672451A420162F6700772FD4 /* PREGoalContentTableViewCell.m */; };
+		672452DB20162F6900772FD4 /* PREGoalContentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 672451A520162F6700772FD4 /* PREGoalContentTableViewCell.xib */; };
+		672452DC20162F6900772FD4 /* PREGoalContentTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 672451A720162F6700772FD4 /* PREGoalContentTableViewController.m */; };
+		672452DD20162F6900772FD4 /* PREGoalContentTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 672451A820162F6700772FD4 /* PREGoalContentTableViewController.xib */; };
+		672452DE20162F6900772FD4 /* PREGoalsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 672451AA20162F6700772FD4 /* PREGoalsTableViewController.m */; };
+		672452DF20162F6900772FD4 /* PREGoalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 672451AC20162F6700772FD4 /* PREGoalTableViewCell.m */; };
+		672452E020162F6900772FD4 /* PREGoalTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 672451AD20162F6700772FD4 /* PREGoalTableViewCell.xib */; };
+		672452E120162F6900772FD4 /* PREMainActionGroupTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 672451AF20162F6700772FD4 /* PREMainActionGroupTableViewController.m */; };
+		672452E220162F6900772FD4 /* PREMainActionGroupTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 672451B020162F6700772FD4 /* PREMainActionGroupTableViewController.xib */; };
+		672452E320162F6900772FD4 /* PREMainActionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 672451B220162F6700772FD4 /* PREMainActionTableViewCell.m */; };
+		672452E420162F6900772FD4 /* PREMainActionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 672451B320162F6700772FD4 /* PREMainActionTableViewCell.xib */; };
+		672452E520162F6900772FD4 /* PRESimpleFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 672451B620162F6700772FD4 /* PRESimpleFormViewController.m */; };
+		672452E620162F6900772FD4 /* PRESubActionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 672451B820162F6700772FD4 /* PRESubActionTableViewCell.m */; };
+		672452E720162F6900772FD4 /* PRESubActionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 672451B920162F6700772FD4 /* PRESubActionTableViewCell.xib */; };
+		672452E820162F6900772FD4 /* PREWorkplaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 672451BB20162F6700772FD4 /* PREWorkplaceViewController.m */; };
+		672452E920162F6900772FD4 /* SectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 672451BD20162F6700772FD4 /* SectionHeaderView.m */; };
+		672452EA20162F6900772FD4 /* SectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 672451BE20162F6700772FD4 /* SectionHeaderView.xib */; };
+		672452EB20162F6900772FD4 /* workplace.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 672451BF20162F6700772FD4 /* workplace.storyboard */; };
+		672452EC20162F6900772FD4 /* Converse_default.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 672451C020162F6700772FD4 /* Converse_default.xcassets */; };
+		672452ED20162F6900772FD4 /* PREConverseAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 672451C720162F6700772FD4 /* PREConverseAPIClient.m */; };
+		672452EE20162F6900772FD4 /* PREConverseAPIMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 672451C920162F6700772FD4 /* PREConverseAPIMethod.m */; };
+		672452EF20162F6900772FD4 /* PREConverseAPIRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 672451CB20162F6700772FD4 /* PREConverseAPIRequest.m */; };
+		672452F020162F6900772FD4 /* PREConverseAPIResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 672451CD20162F6700772FD4 /* PREConverseAPIResponse.m */; };
+		672452F120162F6900772FD4 /* PREConverseActionRequest_FAKE.m in Sources */ = {isa = PBXBuildFile; fileRef = 672451D220162F6700772FD4 /* PREConverseActionRequest_FAKE.m */; };
+		672452F220162F6900772FD4 /* PREConverseActionResponse_FAKE.m in Sources */ = {isa = PBXBuildFile; fileRef = 672451D420162F6700772FD4 /* PREConverseActionResponse_FAKE.m */; };
+		672452F320162F6900772FD4 /* PREConverseActionsRequest_FAKE.m in Sources */ = {isa = PBXBuildFile; fileRef = 672451D720162F6700772FD4 /* PREConverseActionsRequest_FAKE.m */; };
+		672452F420162F6900772FD4 /* PREConverseActionsResponse_FAKE.m in Sources */ = {isa = PBXBuildFile; fileRef = 672451D920162F6700772FD4 /* PREConverseActionsResponse_FAKE.m */; };
+		672452F520162F6900772FD4 /* PREConverseInitialDataRequest_FAKE.m in Sources */ = {isa = PBXBuildFile; fileRef = 672451DC20162F6700772FD4 /* PREConverseInitialDataRequest_FAKE.m */; };
+		672452F620162F6900772FD4 /* PREConverseInitialDataResponse_FAKE.m in Sources */ = {isa = PBXBuildFile; fileRef = 672451DE20162F6700772FD4 /* PREConverseInitialDataResponse_FAKE.m */; };
+		672452F720162F6900772FD4 /* PREConverseDefaultNetworkClient_FAKE.m in Sources */ = {isa = PBXBuildFile; fileRef = 672451E020162F6700772FD4 /* PREConverseDefaultNetworkClient_FAKE.m */; };
+		672452F820162F6900772FD4 /* PREConverseActionRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 672451E420162F6700772FD4 /* PREConverseActionRequest.m */; };
+		672452F920162F6900772FD4 /* PREConverseActionResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 672451E620162F6700772FD4 /* PREConverseActionResponse.m */; };
+		672452FA20162F6900772FD4 /* PREConverseActionsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 672451E920162F6700772FD4 /* PREConverseActionsRequest.m */; };
+		672452FB20162F6900772FD4 /* PREConverseActionsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 672451EB20162F6700772FD4 /* PREConverseActionsResponse.m */; };
+		672452FC20162F6900772FD4 /* PREConverseInitialDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 672451EE20162F6700772FD4 /* PREConverseInitialDataRequest.m */; };
+		672452FD20162F6900772FD4 /* PREConverseInitialDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 672451F020162F6700772FD4 /* PREConverseInitialDataResponse.m */; };
+		672452FE20162F6900772FD4 /* PREConverseDefaultNetworkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 672451F220162F6700772FD4 /* PREConverseDefaultNetworkClient.m */; };
+		672452FF20162F6900772FD4 /* PREConverseDefaultRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 672451F420162F6700772FD4 /* PREConverseDefaultRequest.m */; };
+		6724530020162F6900772FD4 /* PREConverseDefaultRequestParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 672451F620162F6700772FD4 /* PREConverseDefaultRequestParameters.m */; };
+		6724530120162F6900772FD4 /* PREConverseDefaultResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 672451F820162F6700772FD4 /* PREConverseDefaultResponse.m */; };
+		6724530220162F6900772FD4 /* PREConverseTestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 672451FA20162F6700772FD4 /* PREConverseTestClient.m */; };
+		6724530320162F6900772FD4 /* PREConverseTestNetworkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 672451FC20162F6700772FD4 /* PREConverseTestNetworkClient.m */; };
+		6724530420162F6900772FD4 /* PREConverseTestRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 672451FE20162F6700772FD4 /* PREConverseTestRequest.m */; };
+		6724530520162F6900772FD4 /* PREConverseTestJSONRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724520120162F6700772FD4 /* PREConverseTestJSONRequest.m */; };
+		6724530620162F6900772FD4 /* PREConverseTestJSONResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724520320162F6700772FD4 /* PREConverseTestJSONResponse.m */; };
+		6724530720162F6900772FD4 /* PREConverseOperationNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724520820162F6700772FD4 /* PREConverseOperationNetworkManager.m */; };
+		6724530820162F6900772FD4 /* PREConverseOperationQueueManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724520A20162F6700772FD4 /* PREConverseOperationQueueManager.m */; };
+		6724530920162F6900772FD4 /* PREConverseOperationNetworkTestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724520D20162F6700772FD4 /* PREConverseOperationNetworkTestManager.m */; };
+		6724530A20162F6900772FD4 /* PREConverseDefaultOperationClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724521120162F6700772FD4 /* PREConverseDefaultOperationClient.m */; };
+		6724530B20162F6900772FD4 /* PREConverseTestOperationClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724521320162F6700772FD4 /* PREConverseTestOperationClient.m */; };
+		6724530C20162F6900772FD4 /* PREConverseAPIBaseOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724521820162F6700772FD4 /* PREConverseAPIBaseOperation.m */; };
+		6724530D20162F6900772FD4 /* PREConverseAPIDataOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724521A20162F6700772FD4 /* PREConverseAPIDataOperation.m */; };
+		6724530E20162F6900772FD4 /* PREConverseAPIDownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724521C20162F6700772FD4 /* PREConverseAPIDownloadOperation.m */; };
+		6724530F20162F6900772FD4 /* PREConverseAPIStreamOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724521E20162F6700772FD4 /* PREConverseAPIStreamOperation.m */; };
+		6724531020162F6900772FD4 /* PREConverseAPIUploadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724522020162F6700772FD4 /* PREConverseAPIUploadOperation.m */; };
+		6724531120162F6900772FD4 /* PREConverseActionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724522420162F6700772FD4 /* PREConverseActionOperation.m */; };
+		6724531220162F6900772FD4 /* PREConverseActionsOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724522720162F6700772FD4 /* PREConverseActionsOperation.m */; };
+		6724531320162F6900772FD4 /* PREConverseInitialDataOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724522A20162F6700772FD4 /* PREConverseInitialDataOperation.m */; };
+		6724531420162F6900772FD4 /* PREConverseTestJSONOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724522E20162F6700772FD4 /* PREConverseTestJSONOperation.m */; };
+		6724531520162F6900772FD4 /* PREConverseActionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724523120162F6700772FD4 /* PREConverseActionModel.m */; };
+		6724531620162F6900772FD4 /* PREConverseActionsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724523320162F6700772FD4 /* PREConverseActionsModel.m */; };
+		6724531720162F6900772FD4 /* PREConverseInitialDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724523520162F6700772FD4 /* PREConverseInitialDataModel.m */; };
+		6724531820162F6900772FD4 /* PREConverseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724523720162F6700772FD4 /* PREConverseModel.m */; };
+		6724531920162F6900772FD4 /* PRELocalAppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724523920162F6700772FD4 /* PRELocalAppManager.m */; };
+		6724531A20162F6900772FD4 /* PRELocalAppRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724523B20162F6700772FD4 /* PRELocalAppRequestManager.m */; };
+		6724531B20162F6900772FD4 /* PREConverseInitialDataViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724523E20162F6700772FD4 /* PREConverseInitialDataViewModel.m */; };
+		6724531C20162F6900772FD4 /* PREConverseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724524020162F6700772FD4 /* PREConverseViewModel.m */; };
+		6724531D20162F6900772FD4 /* PREConverseInitialDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724524420162F6700772FD4 /* PREConverseInitialDataViewController.m */; };
+		6724531E20162F6900772FD4 /* PREConverseInitialDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6724524520162F6700772FD4 /* PREConverseInitialDataViewController.xib */; };
+		6724531F20162F6900772FD4 /* PREConverseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724524720162F6700772FD4 /* PREConverseViewController.m */; };
+		6724532020162F6900772FD4 /* PREConverseInitialDataViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724524A20162F6700772FD4 /* PREConverseInitialDataViewModel.m */; };
+		6724532120162F6900772FD4 /* PREConverseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724524C20162F6700772FD4 /* PREConverseViewModel.m */; };
+		6724532220162F6900772FD4 /* PREConverseInitialDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724525020162F6700772FD4 /* PREConverseInitialDataViewController.m */; };
+		6724532320162F6900772FD4 /* PREConverseInitialDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6724525120162F6700772FD4 /* PREConverseInitialDataViewController.xib */; };
+		6724532420162F6900772FD4 /* PREConverseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724525320162F6700772FD4 /* PREConverseViewController.m */; };
+		6724532520162F6900772FD4 /* PREConverseAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724525820162F6900772FD4 /* PREConverseAPIClient.m */; };
+		6724532620162F6900772FD4 /* PREConverseAPIMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724525A20162F6900772FD4 /* PREConverseAPIMethod.m */; };
+		6724532720162F6900772FD4 /* PREConverseAPIRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724525C20162F6900772FD4 /* PREConverseAPIRequest.m */; };
+		6724532820162F6900772FD4 /* PREConverseAPIResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724525E20162F6900772FD4 /* PREConverseAPIResponse.m */; };
+		6724532920162F6900772FD4 /* PREConverseActionRequest_FAKE.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724526320162F6900772FD4 /* PREConverseActionRequest_FAKE.m */; };
+		6724532A20162F6900772FD4 /* PREConverseActionResponse_FAKE.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724526520162F6900772FD4 /* PREConverseActionResponse_FAKE.m */; };
+		6724532B20162F6900772FD4 /* PREConverseActionsRequest_FAKE.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724526820162F6900772FD4 /* PREConverseActionsRequest_FAKE.m */; };
+		6724532C20162F6900772FD4 /* PREConverseActionsResponse_FAKE.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724526A20162F6900772FD4 /* PREConverseActionsResponse_FAKE.m */; };
+		6724532D20162F6900772FD4 /* PREConverseInitialDataRequest_FAKE.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724526D20162F6900772FD4 /* PREConverseInitialDataRequest_FAKE.m */; };
+		6724532E20162F6900772FD4 /* PREConverseInitialDataResponse_FAKE.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724526F20162F6900772FD4 /* PREConverseInitialDataResponse_FAKE.m */; };
+		6724532F20162F6900772FD4 /* PREConverseDefaultNetworkClient_FAKE.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724527120162F6900772FD4 /* PREConverseDefaultNetworkClient_FAKE.m */; };
+		6724533020162F6900772FD4 /* PREConverseActionRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724527520162F6900772FD4 /* PREConverseActionRequest.m */; };
+		6724533120162F6900772FD4 /* PREConverseActionResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724527720162F6900772FD4 /* PREConverseActionResponse.m */; };
+		6724533220162F6900772FD4 /* PREConverseActionsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724527A20162F6900772FD4 /* PREConverseActionsRequest.m */; };
+		6724533320162F6900772FD4 /* PREConverseActionsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724527C20162F6900772FD4 /* PREConverseActionsResponse.m */; };
+		6724533420162F6900772FD4 /* PREConverseInitialDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724527F20162F6900772FD4 /* PREConverseInitialDataRequest.m */; };
+		6724533520162F6900772FD4 /* PREConverseInitialDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724528120162F6900772FD4 /* PREConverseInitialDataResponse.m */; };
+		6724533620162F6900772FD4 /* PREConverseDefaultNetworkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724528320162F6900772FD4 /* PREConverseDefaultNetworkClient.m */; };
+		6724533720162F6900772FD4 /* PREConverseDefaultRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724528520162F6900772FD4 /* PREConverseDefaultRequest.m */; };
+		6724533820162F6900772FD4 /* PREConverseDefaultRequestParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724528720162F6900772FD4 /* PREConverseDefaultRequestParameters.m */; };
+		6724533920162F6900772FD4 /* PREConverseDefaultResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724528920162F6900772FD4 /* PREConverseDefaultResponse.m */; };
+		6724533A20162F6900772FD4 /* PREConverseTestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724528B20162F6900772FD4 /* PREConverseTestClient.m */; };
+		6724533B20162F6900772FD4 /* PREConverseTestNetworkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724528D20162F6900772FD4 /* PREConverseTestNetworkClient.m */; };
+		6724533C20162F6900772FD4 /* PREConverseTestRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724528F20162F6900772FD4 /* PREConverseTestRequest.m */; };
+		6724533D20162F6900772FD4 /* PREConverseTestJSONRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724529220162F6900772FD4 /* PREConverseTestJSONRequest.m */; };
+		6724533E20162F6900772FD4 /* PREConverseTestJSONResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724529420162F6900772FD4 /* PREConverseTestJSONResponse.m */; };
+		6724533F20162F6900772FD4 /* PREConverseOperationNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724529920162F6900772FD4 /* PREConverseOperationNetworkManager.m */; };
+		6724534020162F6900772FD4 /* PREConverseOperationQueueManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724529B20162F6900772FD4 /* PREConverseOperationQueueManager.m */; };
+		6724534120162F6900772FD4 /* PREConverseOperationNetworkTestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724529E20162F6900772FD4 /* PREConverseOperationNetworkTestManager.m */; };
+		6724534220162F6900772FD4 /* PREConverseDefaultOperationClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 672452A220162F6900772FD4 /* PREConverseDefaultOperationClient.m */; };
+		6724534320162F6900772FD4 /* PREConverseTestOperationClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 672452A420162F6900772FD4 /* PREConverseTestOperationClient.m */; };
+		6724534420162F6900772FD4 /* PREConverseAPIBaseOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 672452A920162F6900772FD4 /* PREConverseAPIBaseOperation.m */; };
+		6724534520162F6900772FD4 /* PREConverseAPIDataOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 672452AB20162F6900772FD4 /* PREConverseAPIDataOperation.m */; };
+		6724534620162F6900772FD4 /* PREConverseAPIDownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 672452AD20162F6900772FD4 /* PREConverseAPIDownloadOperation.m */; };
+		6724534720162F6900772FD4 /* PREConverseAPIStreamOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 672452AF20162F6900772FD4 /* PREConverseAPIStreamOperation.m */; };
+		6724534820162F6900772FD4 /* PREConverseAPIUploadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 672452B120162F6900772FD4 /* PREConverseAPIUploadOperation.m */; };
+		6724534920162F6900772FD4 /* PREConverseActionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 672452B520162F6900772FD4 /* PREConverseActionOperation.m */; };
+		6724534A20162F6900772FD4 /* PREConverseActionsOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 672452B820162F6900772FD4 /* PREConverseActionsOperation.m */; };
+		6724534B20162F6900772FD4 /* PREConverseInitialDataOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 672452BB20162F6900772FD4 /* PREConverseInitialDataOperation.m */; };
+		6724534C20162F6900772FD4 /* PREConverseTestJSONOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 672452BF20162F6900772FD4 /* PREConverseTestJSONOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +267,408 @@
 		6724507220162E6200772FD4 /* TestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6724507620162E6200772FD4 /* TestAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAppUITests.m; sourceTree = "<group>"; };
 		6724507820162E6200772FD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6724508620162F4400772FD4 /* NSInvocation+Copy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+Copy.h"; sourceTree = "<group>"; };
+		6724508720162F4400772FD4 /* NSInvocation+Copy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSInvocation+Copy.m"; sourceTree = "<group>"; };
+		6724508820162F4400772FD4 /* PREAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREAppearance.h; sourceTree = "<group>"; };
+		6724508920162F4400772FD4 /* PREAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREAppearance.m; sourceTree = "<group>"; };
+		6724508B20162F4400772FD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6724508D20162F4400772FD4 /* CordantSpirit_default.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CordantSpirit_default.xcassets; sourceTree = "<group>"; };
+		6724508F20162F4400772FD4 /* Corporate_default.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Corporate_default.xcassets; sourceTree = "<group>"; };
+		6724509020162F4400772FD4 /* Corporate_th_black.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Corporate_th_black.xcassets; sourceTree = "<group>"; };
+		6724509120162F4400772FD4 /* Corporate_th_white.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Corporate_th_white.xcassets; sourceTree = "<group>"; };
+		6724509220162F4400772FD4 /* Corporate_th_white_and_matisse_blue.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Corporate_th_white_and_matisse_blue.xcassets; sourceTree = "<group>"; };
+		6724509420162F4400772FD4 /* DowJones_default.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = DowJones_default.xcassets; sourceTree = "<group>"; };
+		6724509520162F4400772FD4 /* DowJones_th_black.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = DowJones_th_black.xcassets; sourceTree = "<group>"; };
+		6724509620162F4400772FD4 /* DowJones_th_white_and_firefly_blue.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = DowJones_th_white_and_firefly_blue.xcassets; sourceTree = "<group>"; };
+		6724509820162F4400772FD4 /* Helvetia_default.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Helvetia_default.xcassets; sourceTree = "<group>"; };
+		6724509A20162F4400772FD4 /* Strabag_default.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Strabag_default.xcassets; sourceTree = "<group>"; };
+		6724509C20162F4400772FD4 /* WellCare_default.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = WellCare_default.xcassets; sourceTree = "<group>"; };
+		6724509E20162F4400772FD4 /* PREColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREColor.h; sourceTree = "<group>"; };
+		6724509F20162F4400772FD4 /* PREColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREColor.m; sourceTree = "<group>"; };
+		672450A120162F4400772FD4 /* PREParentBaseAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREParentBaseAlertViewController.h; sourceTree = "<group>"; };
+		672450A220162F4400772FD4 /* PREParentBaseAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREParentBaseAlertViewController.m; sourceTree = "<group>"; };
+		672450A320162F4400772FD4 /* PREParentBaseAppearanceProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREParentBaseAppearanceProtocols.h; sourceTree = "<group>"; };
+		672450A420162F4400772FD4 /* PREParentBaseCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREParentBaseCollectionReusableView.h; sourceTree = "<group>"; };
+		672450A520162F4400772FD4 /* PREParentBaseCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREParentBaseCollectionReusableView.m; sourceTree = "<group>"; };
+		672450A620162F4400772FD4 /* PREParentBaseCollectionReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PREParentBaseCollectionReusableView.xib; sourceTree = "<group>"; };
+		672450A720162F4400772FD4 /* PREParentBaseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREParentBaseCollectionViewCell.h; sourceTree = "<group>"; };
+		672450A820162F4400772FD4 /* PREParentBaseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREParentBaseCollectionViewCell.m; sourceTree = "<group>"; };
+		672450A920162F4400772FD4 /* PREParentBaseCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PREParentBaseCollectionViewCell.xib; sourceTree = "<group>"; };
+		672450AA20162F4400772FD4 /* PREParentBaseImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREParentBaseImagePickerController.h; sourceTree = "<group>"; };
+		672450AB20162F4400772FD4 /* PREParentBaseImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREParentBaseImagePickerController.m; sourceTree = "<group>"; };
+		672450AC20162F4400772FD4 /* PREParentBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREParentBaseNavigationController.h; sourceTree = "<group>"; };
+		672450AD20162F4400772FD4 /* PREParentBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREParentBaseNavigationController.m; sourceTree = "<group>"; };
+		672450AE20162F4400772FD4 /* PREParentBaseSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREParentBaseSplitViewController.h; sourceTree = "<group>"; };
+		672450AF20162F4400772FD4 /* PREParentBaseSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREParentBaseSplitViewController.m; sourceTree = "<group>"; };
+		672450B020162F4400772FD4 /* PREParentBaseSplitViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PREParentBaseSplitViewController.xib; sourceTree = "<group>"; };
+		672450B120162F4400772FD4 /* PREParentBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREParentBaseTableViewCell.h; sourceTree = "<group>"; };
+		672450B220162F4400772FD4 /* PREParentBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREParentBaseTableViewCell.m; sourceTree = "<group>"; };
+		672450B320162F4400772FD4 /* PREParentBaseTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PREParentBaseTableViewCell.xib; sourceTree = "<group>"; };
+		672450B420162F4400772FD4 /* PREParentBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREParentBaseTableViewController.h; sourceTree = "<group>"; };
+		672450B520162F4400772FD4 /* PREParentBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREParentBaseTableViewController.m; sourceTree = "<group>"; };
+		672450B620162F4400772FD4 /* PREParentBaseTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PREParentBaseTableViewController.xib; sourceTree = "<group>"; };
+		672450B720162F4400772FD4 /* PREParentBaseTableViewFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREParentBaseTableViewFooterView.h; sourceTree = "<group>"; };
+		672450B820162F4400772FD4 /* PREParentBaseTableViewFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREParentBaseTableViewFooterView.m; sourceTree = "<group>"; };
+		672450B920162F4400772FD4 /* PREParentBaseTableViewHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREParentBaseTableViewHeaderView.h; sourceTree = "<group>"; };
+		672450BA20162F4400772FD4 /* PREParentBaseTableViewHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREParentBaseTableViewHeaderView.m; sourceTree = "<group>"; };
+		672450BB20162F4400772FD4 /* PREParentBaseTableViewSectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREParentBaseTableViewSectionView.h; sourceTree = "<group>"; };
+		672450BC20162F4400772FD4 /* PREParentBaseTableViewSectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREParentBaseTableViewSectionView.m; sourceTree = "<group>"; };
+		672450BD20162F4400772FD4 /* PREParentBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREParentBaseViewController.h; sourceTree = "<group>"; };
+		672450BE20162F4400772FD4 /* PREParentBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREParentBaseViewController.m; sourceTree = "<group>"; };
+		672450BF20162F4400772FD4 /* PREThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREThemeManager.h; sourceTree = "<group>"; };
+		672450C020162F4400772FD4 /* PREThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREThemeManager.m; sourceTree = "<group>"; };
+		672450C320162F4400772FD4 /* PREThemeContentsFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREThemeContentsFactory.h; sourceTree = "<group>"; };
+		672450C420162F4400772FD4 /* PREThemeContentsFactoryCorporateBlack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREThemeContentsFactoryCorporateBlack.h; sourceTree = "<group>"; };
+		672450C520162F4400772FD4 /* PREThemeContentsFactoryCorporateBlack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREThemeContentsFactoryCorporateBlack.m; sourceTree = "<group>"; };
+		672450C620162F4400772FD4 /* PREThemeContentsFactoryCorporateWhite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREThemeContentsFactoryCorporateWhite.h; sourceTree = "<group>"; };
+		672450C720162F4400772FD4 /* PREThemeContentsFactoryCorporateWhite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREThemeContentsFactoryCorporateWhite.m; sourceTree = "<group>"; };
+		672450C820162F4400772FD4 /* PREThemeContentsFactoryCorporateWhiteAndMatisseBlue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREThemeContentsFactoryCorporateWhiteAndMatisseBlue.h; sourceTree = "<group>"; };
+		672450C920162F4400772FD4 /* PREThemeContentsFactoryCorporateWhiteAndMatisseBlue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREThemeContentsFactoryCorporateWhiteAndMatisseBlue.m; sourceTree = "<group>"; };
+		672450CA20162F4400772FD4 /* PREThemeContentsFactoryDowJonesBlack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREThemeContentsFactoryDowJonesBlack.h; sourceTree = "<group>"; };
+		672450CB20162F4400772FD4 /* PREThemeContentsFactoryDowJonesBlack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREThemeContentsFactoryDowJonesBlack.m; sourceTree = "<group>"; };
+		672450CC20162F4400772FD4 /* PREThemeContentsFactoryDowJonesWhiteAndFireflyBlue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREThemeContentsFactoryDowJonesWhiteAndFireflyBlue.h; sourceTree = "<group>"; };
+		672450CD20162F4400772FD4 /* PREThemeContentsFactoryDowJonesWhiteAndFireflyBlue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREThemeContentsFactoryDowJonesWhiteAndFireflyBlue.m; sourceTree = "<group>"; };
+		672450CF20162F4400772FD4 /* PREThemeContentProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREThemeContentProtocol.h; sourceTree = "<group>"; };
+		672450D120162F4400772FD4 /* PREThemeSwitchSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREThemeSwitchSettings.h; sourceTree = "<group>"; };
+		672450D220162F4400772FD4 /* PREThemeSwitchSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREThemeSwitchSettings.m; sourceTree = "<group>"; };
+		672450D420162F4400772FD4 /* PREThemeButtonSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREThemeButtonSettings.h; sourceTree = "<group>"; };
+		672450D520162F4400772FD4 /* PREThemeButtonSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREThemeButtonSettings.m; sourceTree = "<group>"; };
+		672450D720162F4400772FD4 /* PREThemeNavigationBarSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREThemeNavigationBarSettings.h; sourceTree = "<group>"; };
+		672450D820162F4400772FD4 /* PREThemeNavigationBarSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREThemeNavigationBarSettings.m; sourceTree = "<group>"; };
+		672450DA20162F4400772FD4 /* PREThemePageControlSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREThemePageControlSettings.h; sourceTree = "<group>"; };
+		672450DB20162F4400772FD4 /* PREThemePageControlSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREThemePageControlSettings.m; sourceTree = "<group>"; };
+		672450DD20162F4400772FD4 /* PREThemeSegmentedControlSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREThemeSegmentedControlSettings.h; sourceTree = "<group>"; };
+		672450DE20162F4400772FD4 /* PREThemeSegmentedControlSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREThemeSegmentedControlSettings.m; sourceTree = "<group>"; };
+		672450E020162F4400772FD4 /* PREThemeTabBarSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREThemeTabBarSettings.h; sourceTree = "<group>"; };
+		672450E120162F4400772FD4 /* PREThemeTabBarSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREThemeTabBarSettings.m; sourceTree = "<group>"; };
+		672450E420162F4400772FD4 /* PREThemeMainViewSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREThemeMainViewSettings.h; sourceTree = "<group>"; };
+		672450E520162F4400772FD4 /* PREThemeMainViewSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREThemeMainViewSettings.m; sourceTree = "<group>"; };
+		672450E620162F4400772FD4 /* PREThemeMainViewSettingsBlack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREThemeMainViewSettingsBlack.h; sourceTree = "<group>"; };
+		672450E720162F4400772FD4 /* PREThemeMainViewSettingsBlack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREThemeMainViewSettingsBlack.m; sourceTree = "<group>"; };
+		672450E820162F4400772FD4 /* PREThemeMainViewSettingsBlackDJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREThemeMainViewSettingsBlackDJ.h; sourceTree = "<group>"; };
+		672450E920162F4400772FD4 /* PREThemeMainViewSettingsBlackDJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREThemeMainViewSettingsBlackDJ.m; sourceTree = "<group>"; };
+		672450EA20162F4400772FD4 /* PREThemeMainViewSettingsWhite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREThemeMainViewSettingsWhite.h; sourceTree = "<group>"; };
+		672450EB20162F4400772FD4 /* PREThemeMainViewSettingsWhite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREThemeMainViewSettingsWhite.m; sourceTree = "<group>"; };
+		672450EC20162F4400772FD4 /* PREThemeMainViewSettingsWhiteAndBlueFirefly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREThemeMainViewSettingsWhiteAndBlueFirefly.h; sourceTree = "<group>"; };
+		672450ED20162F4400772FD4 /* PREThemeMainViewSettingsWhiteAndBlueFirefly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREThemeMainViewSettingsWhiteAndBlueFirefly.m; sourceTree = "<group>"; };
+		672450EE20162F4400772FD4 /* PREThemeMainViewSettingsWhiteAndBlueMatisse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREThemeMainViewSettingsWhiteAndBlueMatisse.h; sourceTree = "<group>"; };
+		672450EF20162F4400772FD4 /* PREThemeMainViewSettingsWhiteAndBlueMatisse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREThemeMainViewSettingsWhiteAndBlueMatisse.m; sourceTree = "<group>"; };
+		672450F120162F4400772FD4 /* PREThemeCircleViewSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREThemeCircleViewSettings.h; sourceTree = "<group>"; };
+		672450F220162F4400772FD4 /* PREThemeCircleViewSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREThemeCircleViewSettings.m; sourceTree = "<group>"; };
+		672450F320162F4400772FD4 /* PREThemeCircleViewSettingsBlueCerulean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREThemeCircleViewSettingsBlueCerulean.h; sourceTree = "<group>"; };
+		672450F420162F4400772FD4 /* PREThemeCircleViewSettingsBlueCerulean.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREThemeCircleViewSettingsBlueCerulean.m; sourceTree = "<group>"; };
+		672450F520162F4400772FD4 /* PREThemeCircleViewSettingsBlueMatisse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREThemeCircleViewSettingsBlueMatisse.h; sourceTree = "<group>"; };
+		672450F620162F4400772FD4 /* PREThemeCircleViewSettingsBlueMatisse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREThemeCircleViewSettingsBlueMatisse.m; sourceTree = "<group>"; };
+		672450F720162F4400772FD4 /* PREThemeCircleViewSettingsGray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREThemeCircleViewSettingsGray.h; sourceTree = "<group>"; };
+		672450F820162F4400772FD4 /* PREThemeCircleViewSettingsGray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREThemeCircleViewSettingsGray.m; sourceTree = "<group>"; };
+		672450F920162F4400772FD4 /* PREThemeViewSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREThemeViewSettings.h; sourceTree = "<group>"; };
+		672450FA20162F4400772FD4 /* PREThemeViewSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREThemeViewSettings.m; sourceTree = "<group>"; };
+		672450FC20162F4400772FD4 /* PREThemeToastViewSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREThemeToastViewSettings.h; sourceTree = "<group>"; };
+		672450FD20162F4400772FD4 /* PREThemeToastViewSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREThemeToastViewSettings.m; sourceTree = "<group>"; };
+		672450FE20162F4400772FD4 /* PREThemeToastViewSettingsWhite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREThemeToastViewSettingsWhite.h; sourceTree = "<group>"; };
+		672450FF20162F4400772FD4 /* PREThemeToastViewSettingsWhite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREThemeToastViewSettingsWhite.m; sourceTree = "<group>"; };
+		6724510120162F4400772FD4 /* PREThemeCalendarViewSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREThemeCalendarViewSettings.h; sourceTree = "<group>"; };
+		6724510220162F4400772FD4 /* PREThemeCalendarViewSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREThemeCalendarViewSettings.m; sourceTree = "<group>"; };
+		6724510320162F4400772FD4 /* PREThemeCalendarViewSettingsBlackAndBlueCerulean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREThemeCalendarViewSettingsBlackAndBlueCerulean.h; sourceTree = "<group>"; };
+		6724510420162F4400772FD4 /* PREThemeCalendarViewSettingsBlackAndBlueCerulean.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREThemeCalendarViewSettingsBlackAndBlueCerulean.m; sourceTree = "<group>"; };
+		6724510520162F4400772FD4 /* PREThemeCalendarViewSettingsBlackAndBlueViking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREThemeCalendarViewSettingsBlackAndBlueViking.h; sourceTree = "<group>"; };
+		6724510620162F4400772FD4 /* PREThemeCalendarViewSettingsBlackAndBlueViking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREThemeCalendarViewSettingsBlackAndBlueViking.m; sourceTree = "<group>"; };
+		6724510720162F4400772FD4 /* PREThemeCalendarViewSettingsWhiteAndBlueCerulean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREThemeCalendarViewSettingsWhiteAndBlueCerulean.h; sourceTree = "<group>"; };
+		6724510820162F4400772FD4 /* PREThemeCalendarViewSettingsWhiteAndBlueCerulean.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREThemeCalendarViewSettingsWhiteAndBlueCerulean.m; sourceTree = "<group>"; };
+		6724510920162F4400772FD4 /* PREThemeCalendarViewSettingsWhiteAndBlueMatisse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREThemeCalendarViewSettingsWhiteAndBlueMatisse.h; sourceTree = "<group>"; };
+		6724510A20162F4400772FD4 /* PREThemeCalendarViewSettingsWhiteAndBlueMatisse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREThemeCalendarViewSettingsWhiteAndBlueMatisse.m; sourceTree = "<group>"; };
+		6724510B20162F4400772FD4 /* PREThemeCalendarViewSettingsWhiteAndGreenVidaLoca.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREThemeCalendarViewSettingsWhiteAndGreenVidaLoca.h; sourceTree = "<group>"; };
+		6724510C20162F4400772FD4 /* PREThemeCalendarViewSettingsWhiteAndGreenVidaLoca.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREThemeCalendarViewSettingsWhiteAndGreenVidaLoca.m; sourceTree = "<group>"; };
+		6724510E20162F4400772FD4 /* PREThemeExclusiveTargetSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREThemeExclusiveTargetSettings.h; sourceTree = "<group>"; };
+		6724510F20162F4400772FD4 /* PREThemeExclusiveTargetSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREThemeExclusiveTargetSettings.m; sourceTree = "<group>"; };
+		6724511020162F4400772FD4 /* PREThemeExclusiveTargetSettingsDowJones.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREThemeExclusiveTargetSettingsDowJones.h; sourceTree = "<group>"; };
+		6724511120162F4400772FD4 /* PREThemeExclusiveTargetSettingsDowJones.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREThemeExclusiveTargetSettingsDowJones.m; sourceTree = "<group>"; };
+		6724511320162F4400772FD4 /* PREThemeManagerDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREThemeManagerDefines.h; sourceTree = "<group>"; };
+		6724511420162F4400772FD4 /* PREThemeModeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREThemeModeHelper.h; sourceTree = "<group>"; };
+		6724511520162F4400772FD4 /* PREThemeModeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREThemeModeHelper.m; sourceTree = "<group>"; };
+		6724511620162F4400772FD4 /* PREThemeStoreHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREThemeStoreHelper.h; sourceTree = "<group>"; };
+		6724511720162F4400772FD4 /* PREThemeStoreHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREThemeStoreHelper.m; sourceTree = "<group>"; };
+		6724511920162F4400772FD4 /* PREThemeStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREThemeStore.h; sourceTree = "<group>"; };
+		6724511A20162F4400772FD4 /* PREThemeStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREThemeStore.m; sourceTree = "<group>"; };
+		6724511B20162F4400772FD4 /* PREThemeStoreCorporate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREThemeStoreCorporate.h; sourceTree = "<group>"; };
+		6724511C20162F4400772FD4 /* PREThemeStoreCorporate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREThemeStoreCorporate.m; sourceTree = "<group>"; };
+		6724511D20162F4400772FD4 /* PREThemeStoreDowJones.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREThemeStoreDowJones.h; sourceTree = "<group>"; };
+		6724511E20162F4400772FD4 /* PREThemeStoreDowJones.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREThemeStoreDowJones.m; sourceTree = "<group>"; };
+		6724512020162F4400772FD4 /* PRETheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRETheme.h; sourceTree = "<group>"; };
+		6724512120162F4400772FD4 /* PRETheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRETheme.m; sourceTree = "<group>"; };
+		6724512220162F4400772FD4 /* PREThemeCorporate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREThemeCorporate.h; sourceTree = "<group>"; };
+		6724512320162F4400772FD4 /* PREThemeCorporate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREThemeCorporate.m; sourceTree = "<group>"; };
+		6724512420162F4400772FD4 /* PREThemeDowJones.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREThemeDowJones.h; sourceTree = "<group>"; };
+		6724512520162F4400772FD4 /* PREThemeDowJones.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREThemeDowJones.m; sourceTree = "<group>"; };
+		6724517220162F6700772FD4 /* PREAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREAction.h; sourceTree = "<group>"; };
+		6724517320162F6700772FD4 /* PREAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREAction.m; sourceTree = "<group>"; };
+		6724517420162F6700772FD4 /* PREActionWorkplace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREActionWorkplace.h; sourceTree = "<group>"; };
+		6724517520162F6700772FD4 /* PREActionWorkplace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREActionWorkplace.m; sourceTree = "<group>"; };
+		6724517620162F6700772FD4 /* PREAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREAttribute.h; sourceTree = "<group>"; };
+		6724517720162F6700772FD4 /* PREAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREAttribute.m; sourceTree = "<group>"; };
+		6724517820162F6700772FD4 /* PREBACommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREBACommand.h; sourceTree = "<group>"; };
+		6724517920162F6700772FD4 /* PREBACommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREBACommand.m; sourceTree = "<group>"; };
+		6724517A20162F6700772FD4 /* PREBAObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREBAObject.h; sourceTree = "<group>"; };
+		6724517B20162F6700772FD4 /* PREBAObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREBAObject.m; sourceTree = "<group>"; };
+		6724517C20162F6700772FD4 /* PRECommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRECommand.h; sourceTree = "<group>"; };
+		6724517D20162F6700772FD4 /* PRECommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRECommand.m; sourceTree = "<group>"; };
+		6724517E20162F6700772FD4 /* PREField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREField.h; sourceTree = "<group>"; };
+		6724517F20162F6700772FD4 /* PREField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREField.m; sourceTree = "<group>"; };
+		6724518020162F6700772FD4 /* PREForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREForm.h; sourceTree = "<group>"; };
+		6724518120162F6700772FD4 /* PREForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREForm.m; sourceTree = "<group>"; };
+		6724518220162F6700772FD4 /* PREGoal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREGoal.h; sourceTree = "<group>"; };
+		6724518320162F6700772FD4 /* PREGoal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREGoal.m; sourceTree = "<group>"; };
+		6724518420162F6700772FD4 /* PREGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREGroup.h; sourceTree = "<group>"; };
+		6724518520162F6700772FD4 /* PREGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREGroup.m; sourceTree = "<group>"; };
+		6724518620162F6700772FD4 /* PREInitialData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREInitialData.h; sourceTree = "<group>"; };
+		6724518720162F6700772FD4 /* PREInitialData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREInitialData.m; sourceTree = "<group>"; };
+		6724518820162F6700772FD4 /* PREItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREItem.h; sourceTree = "<group>"; };
+		6724518920162F6700772FD4 /* PREItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREItem.m; sourceTree = "<group>"; };
+		6724518A20162F6700772FD4 /* PREItemTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREItemTemplate.h; sourceTree = "<group>"; };
+		6724518B20162F6700772FD4 /* PREItemTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREItemTemplate.m; sourceTree = "<group>"; };
+		6724518C20162F6700772FD4 /* PREMainAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREMainAction.h; sourceTree = "<group>"; };
+		6724518D20162F6700772FD4 /* PREMainAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREMainAction.m; sourceTree = "<group>"; };
+		6724518E20162F6700772FD4 /* PREMainActionGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREMainActionGroup.h; sourceTree = "<group>"; };
+		6724518F20162F6700772FD4 /* PREMainActionGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREMainActionGroup.m; sourceTree = "<group>"; };
+		6724519020162F6700772FD4 /* PREMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREMenu.h; sourceTree = "<group>"; };
+		6724519120162F6700772FD4 /* PREMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREMenu.m; sourceTree = "<group>"; };
+		6724519220162F6700772FD4 /* PREValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREValidator.h; sourceTree = "<group>"; };
+		6724519320162F6700772FD4 /* PREValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREValidator.m; sourceTree = "<group>"; };
+		6724519420162F6700772FD4 /* PREWorkplace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREWorkplace.h; sourceTree = "<group>"; };
+		6724519520162F6700772FD4 /* PREWorkplace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREWorkplace.m; sourceTree = "<group>"; };
+		6724519620162F6700772FD4 /* PREWorkplaceCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREWorkplaceCommand.h; sourceTree = "<group>"; };
+		6724519720162F6700772FD4 /* PREWorkplaceCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREWorkplaceCommand.m; sourceTree = "<group>"; };
+		6724519820162F6700772FD4 /* LocalAppsAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = LocalAppsAssets.xcassets; sourceTree = "<group>"; };
+		6724519920162F6700772FD4 /* PREActionDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREActionDetailsViewController.h; sourceTree = "<group>"; };
+		6724519A20162F6700772FD4 /* PREActionDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREActionDetailsViewController.m; sourceTree = "<group>"; };
+		6724519B20162F6700772FD4 /* PRECommandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRECommandViewController.h; sourceTree = "<group>"; };
+		6724519C20162F6700772FD4 /* PRECommandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRECommandViewController.m; sourceTree = "<group>"; };
+		6724519D20162F6700772FD4 /* PREComplianceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREComplianceTableViewCell.h; sourceTree = "<group>"; };
+		6724519E20162F6700772FD4 /* PREComplianceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREComplianceTableViewCell.m; sourceTree = "<group>"; };
+		6724519F20162F6700772FD4 /* PREComplianceTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PREComplianceTableViewCell.xib; sourceTree = "<group>"; };
+		672451A020162F6700772FD4 /* PREComplianceTableViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREComplianceTableViewViewController.h; sourceTree = "<group>"; };
+		672451A120162F6700772FD4 /* PREComplianceTableViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREComplianceTableViewViewController.m; sourceTree = "<group>"; };
+		672451A220162F6700772FD4 /* PREComplianceTableViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PREComplianceTableViewViewController.xib; sourceTree = "<group>"; };
+		672451A320162F6700772FD4 /* PREGoalContentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREGoalContentTableViewCell.h; sourceTree = "<group>"; };
+		672451A420162F6700772FD4 /* PREGoalContentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREGoalContentTableViewCell.m; sourceTree = "<group>"; };
+		672451A520162F6700772FD4 /* PREGoalContentTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PREGoalContentTableViewCell.xib; sourceTree = "<group>"; };
+		672451A620162F6700772FD4 /* PREGoalContentTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREGoalContentTableViewController.h; sourceTree = "<group>"; };
+		672451A720162F6700772FD4 /* PREGoalContentTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREGoalContentTableViewController.m; sourceTree = "<group>"; };
+		672451A820162F6700772FD4 /* PREGoalContentTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PREGoalContentTableViewController.xib; sourceTree = "<group>"; };
+		672451A920162F6700772FD4 /* PREGoalsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREGoalsTableViewController.h; sourceTree = "<group>"; };
+		672451AA20162F6700772FD4 /* PREGoalsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREGoalsTableViewController.m; sourceTree = "<group>"; };
+		672451AB20162F6700772FD4 /* PREGoalTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREGoalTableViewCell.h; sourceTree = "<group>"; };
+		672451AC20162F6700772FD4 /* PREGoalTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREGoalTableViewCell.m; sourceTree = "<group>"; };
+		672451AD20162F6700772FD4 /* PREGoalTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PREGoalTableViewCell.xib; sourceTree = "<group>"; };
+		672451AE20162F6700772FD4 /* PREMainActionGroupTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREMainActionGroupTableViewController.h; sourceTree = "<group>"; };
+		672451AF20162F6700772FD4 /* PREMainActionGroupTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREMainActionGroupTableViewController.m; sourceTree = "<group>"; };
+		672451B020162F6700772FD4 /* PREMainActionGroupTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PREMainActionGroupTableViewController.xib; sourceTree = "<group>"; };
+		672451B120162F6700772FD4 /* PREMainActionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREMainActionTableViewCell.h; sourceTree = "<group>"; };
+		672451B220162F6700772FD4 /* PREMainActionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREMainActionTableViewCell.m; sourceTree = "<group>"; };
+		672451B320162F6700772FD4 /* PREMainActionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PREMainActionTableViewCell.xib; sourceTree = "<group>"; };
+		672451B420162F6700772FD4 /* PRERefreshTableViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRERefreshTableViewProtocol.h; sourceTree = "<group>"; };
+		672451B520162F6700772FD4 /* PRESimpleFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRESimpleFormViewController.h; sourceTree = "<group>"; };
+		672451B620162F6700772FD4 /* PRESimpleFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRESimpleFormViewController.m; sourceTree = "<group>"; };
+		672451B720162F6700772FD4 /* PRESubActionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRESubActionTableViewCell.h; sourceTree = "<group>"; };
+		672451B820162F6700772FD4 /* PRESubActionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRESubActionTableViewCell.m; sourceTree = "<group>"; };
+		672451B920162F6700772FD4 /* PRESubActionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PRESubActionTableViewCell.xib; sourceTree = "<group>"; };
+		672451BA20162F6700772FD4 /* PREWorkplaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREWorkplaceViewController.h; sourceTree = "<group>"; };
+		672451BB20162F6700772FD4 /* PREWorkplaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREWorkplaceViewController.m; sourceTree = "<group>"; };
+		672451BC20162F6700772FD4 /* SectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionHeaderView.h; sourceTree = "<group>"; };
+		672451BD20162F6700772FD4 /* SectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionHeaderView.m; sourceTree = "<group>"; };
+		672451BE20162F6700772FD4 /* SectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SectionHeaderView.xib; sourceTree = "<group>"; };
+		672451BF20162F6700772FD4 /* workplace.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = workplace.storyboard; sourceTree = "<group>"; };
+		672451C020162F6700772FD4 /* Converse_default.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Converse_default.xcassets; sourceTree = "<group>"; };
+		672451C620162F6700772FD4 /* PREConverseAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseAPIClient.h; sourceTree = "<group>"; };
+		672451C720162F6700772FD4 /* PREConverseAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseAPIClient.m; sourceTree = "<group>"; };
+		672451C820162F6700772FD4 /* PREConverseAPIMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseAPIMethod.h; sourceTree = "<group>"; };
+		672451C920162F6700772FD4 /* PREConverseAPIMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseAPIMethod.m; sourceTree = "<group>"; };
+		672451CA20162F6700772FD4 /* PREConverseAPIRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseAPIRequest.h; sourceTree = "<group>"; };
+		672451CB20162F6700772FD4 /* PREConverseAPIRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseAPIRequest.m; sourceTree = "<group>"; };
+		672451CC20162F6700772FD4 /* PREConverseAPIResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseAPIResponse.h; sourceTree = "<group>"; };
+		672451CD20162F6700772FD4 /* PREConverseAPIResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseAPIResponse.m; sourceTree = "<group>"; };
+		672451CE20162F6700772FD4 /* PREConverseNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseNetworking.h; sourceTree = "<group>"; };
+		672451D120162F6700772FD4 /* PREConverseActionRequest_FAKE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseActionRequest_FAKE.h; sourceTree = "<group>"; };
+		672451D220162F6700772FD4 /* PREConverseActionRequest_FAKE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseActionRequest_FAKE.m; sourceTree = "<group>"; };
+		672451D320162F6700772FD4 /* PREConverseActionResponse_FAKE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseActionResponse_FAKE.h; sourceTree = "<group>"; };
+		672451D420162F6700772FD4 /* PREConverseActionResponse_FAKE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseActionResponse_FAKE.m; sourceTree = "<group>"; };
+		672451D620162F6700772FD4 /* PREConverseActionsRequest_FAKE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseActionsRequest_FAKE.h; sourceTree = "<group>"; };
+		672451D720162F6700772FD4 /* PREConverseActionsRequest_FAKE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseActionsRequest_FAKE.m; sourceTree = "<group>"; };
+		672451D820162F6700772FD4 /* PREConverseActionsResponse_FAKE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseActionsResponse_FAKE.h; sourceTree = "<group>"; };
+		672451D920162F6700772FD4 /* PREConverseActionsResponse_FAKE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseActionsResponse_FAKE.m; sourceTree = "<group>"; };
+		672451DB20162F6700772FD4 /* PREConverseInitialDataRequest_FAKE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseInitialDataRequest_FAKE.h; sourceTree = "<group>"; };
+		672451DC20162F6700772FD4 /* PREConverseInitialDataRequest_FAKE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseInitialDataRequest_FAKE.m; sourceTree = "<group>"; };
+		672451DD20162F6700772FD4 /* PREConverseInitialDataResponse_FAKE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseInitialDataResponse_FAKE.h; sourceTree = "<group>"; };
+		672451DE20162F6700772FD4 /* PREConverseInitialDataResponse_FAKE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseInitialDataResponse_FAKE.m; sourceTree = "<group>"; };
+		672451DF20162F6700772FD4 /* PREConverseDefaultNetworkClient_FAKE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseDefaultNetworkClient_FAKE.h; sourceTree = "<group>"; };
+		672451E020162F6700772FD4 /* PREConverseDefaultNetworkClient_FAKE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseDefaultNetworkClient_FAKE.m; sourceTree = "<group>"; };
+		672451E320162F6700772FD4 /* PREConverseActionRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseActionRequest.h; sourceTree = "<group>"; };
+		672451E420162F6700772FD4 /* PREConverseActionRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseActionRequest.m; sourceTree = "<group>"; };
+		672451E520162F6700772FD4 /* PREConverseActionResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseActionResponse.h; sourceTree = "<group>"; };
+		672451E620162F6700772FD4 /* PREConverseActionResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseActionResponse.m; sourceTree = "<group>"; };
+		672451E820162F6700772FD4 /* PREConverseActionsRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseActionsRequest.h; sourceTree = "<group>"; };
+		672451E920162F6700772FD4 /* PREConverseActionsRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseActionsRequest.m; sourceTree = "<group>"; };
+		672451EA20162F6700772FD4 /* PREConverseActionsResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseActionsResponse.h; sourceTree = "<group>"; };
+		672451EB20162F6700772FD4 /* PREConverseActionsResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseActionsResponse.m; sourceTree = "<group>"; };
+		672451ED20162F6700772FD4 /* PREConverseInitialDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseInitialDataRequest.h; sourceTree = "<group>"; };
+		672451EE20162F6700772FD4 /* PREConverseInitialDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseInitialDataRequest.m; sourceTree = "<group>"; };
+		672451EF20162F6700772FD4 /* PREConverseInitialDataResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseInitialDataResponse.h; sourceTree = "<group>"; };
+		672451F020162F6700772FD4 /* PREConverseInitialDataResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseInitialDataResponse.m; sourceTree = "<group>"; };
+		672451F120162F6700772FD4 /* PREConverseDefaultNetworkClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseDefaultNetworkClient.h; sourceTree = "<group>"; };
+		672451F220162F6700772FD4 /* PREConverseDefaultNetworkClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseDefaultNetworkClient.m; sourceTree = "<group>"; };
+		672451F320162F6700772FD4 /* PREConverseDefaultRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseDefaultRequest.h; sourceTree = "<group>"; };
+		672451F420162F6700772FD4 /* PREConverseDefaultRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseDefaultRequest.m; sourceTree = "<group>"; };
+		672451F520162F6700772FD4 /* PREConverseDefaultRequestParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseDefaultRequestParameters.h; sourceTree = "<group>"; };
+		672451F620162F6700772FD4 /* PREConverseDefaultRequestParameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseDefaultRequestParameters.m; sourceTree = "<group>"; };
+		672451F720162F6700772FD4 /* PREConverseDefaultResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseDefaultResponse.h; sourceTree = "<group>"; };
+		672451F820162F6700772FD4 /* PREConverseDefaultResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseDefaultResponse.m; sourceTree = "<group>"; };
+		672451FA20162F6700772FD4 /* PREConverseTestClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseTestClient.m; sourceTree = "<group>"; };
+		672451FB20162F6700772FD4 /* PREConverseTestNetworkClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseTestNetworkClient.h; sourceTree = "<group>"; };
+		672451FC20162F6700772FD4 /* PREConverseTestNetworkClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseTestNetworkClient.m; sourceTree = "<group>"; };
+		672451FD20162F6700772FD4 /* PREConverseTestRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseTestRequest.h; sourceTree = "<group>"; };
+		672451FE20162F6700772FD4 /* PREConverseTestRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseTestRequest.m; sourceTree = "<group>"; };
+		6724520020162F6700772FD4 /* PREConverseTestJSONRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseTestJSONRequest.h; sourceTree = "<group>"; };
+		6724520120162F6700772FD4 /* PREConverseTestJSONRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseTestJSONRequest.m; sourceTree = "<group>"; };
+		6724520220162F6700772FD4 /* PREConverseTestJSONResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseTestJSONResponse.h; sourceTree = "<group>"; };
+		6724520320162F6700772FD4 /* PREConverseTestJSONResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseTestJSONResponse.m; sourceTree = "<group>"; };
+		6724520720162F6700772FD4 /* PREConverseOperationNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseOperationNetworkManager.h; sourceTree = "<group>"; };
+		6724520820162F6700772FD4 /* PREConverseOperationNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseOperationNetworkManager.m; sourceTree = "<group>"; };
+		6724520920162F6700772FD4 /* PREConverseOperationQueueManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseOperationQueueManager.h; sourceTree = "<group>"; };
+		6724520A20162F6700772FD4 /* PREConverseOperationQueueManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseOperationQueueManager.m; sourceTree = "<group>"; };
+		6724520C20162F6700772FD4 /* PREConverseOperationNetworkTestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseOperationNetworkTestManager.h; sourceTree = "<group>"; };
+		6724520D20162F6700772FD4 /* PREConverseOperationNetworkTestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseOperationNetworkTestManager.m; sourceTree = "<group>"; };
+		6724521020162F6700772FD4 /* PREConverseDefaultOperationClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseDefaultOperationClient.h; sourceTree = "<group>"; };
+		6724521120162F6700772FD4 /* PREConverseDefaultOperationClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseDefaultOperationClient.m; sourceTree = "<group>"; };
+		6724521220162F6700772FD4 /* PREConverseTestOperationClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseTestOperationClient.h; sourceTree = "<group>"; };
+		6724521320162F6700772FD4 /* PREConverseTestOperationClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseTestOperationClient.m; sourceTree = "<group>"; };
+		6724521720162F6700772FD4 /* PREConverseAPIBaseOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseAPIBaseOperation.h; sourceTree = "<group>"; };
+		6724521820162F6700772FD4 /* PREConverseAPIBaseOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseAPIBaseOperation.m; sourceTree = "<group>"; };
+		6724521920162F6700772FD4 /* PREConverseAPIDataOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseAPIDataOperation.h; sourceTree = "<group>"; };
+		6724521A20162F6700772FD4 /* PREConverseAPIDataOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseAPIDataOperation.m; sourceTree = "<group>"; };
+		6724521B20162F6700772FD4 /* PREConverseAPIDownloadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseAPIDownloadOperation.h; sourceTree = "<group>"; };
+		6724521C20162F6700772FD4 /* PREConverseAPIDownloadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseAPIDownloadOperation.m; sourceTree = "<group>"; };
+		6724521D20162F6700772FD4 /* PREConverseAPIStreamOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseAPIStreamOperation.h; sourceTree = "<group>"; };
+		6724521E20162F6700772FD4 /* PREConverseAPIStreamOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseAPIStreamOperation.m; sourceTree = "<group>"; };
+		6724521F20162F6700772FD4 /* PREConverseAPIUploadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseAPIUploadOperation.h; sourceTree = "<group>"; };
+		6724522020162F6700772FD4 /* PREConverseAPIUploadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseAPIUploadOperation.m; sourceTree = "<group>"; };
+		6724522320162F6700772FD4 /* PREConverseActionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseActionOperation.h; sourceTree = "<group>"; };
+		6724522420162F6700772FD4 /* PREConverseActionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseActionOperation.m; sourceTree = "<group>"; };
+		6724522620162F6700772FD4 /* PREConverseActionsOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseActionsOperation.h; sourceTree = "<group>"; };
+		6724522720162F6700772FD4 /* PREConverseActionsOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseActionsOperation.m; sourceTree = "<group>"; };
+		6724522920162F6700772FD4 /* PREConverseInitialDataOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseInitialDataOperation.h; sourceTree = "<group>"; };
+		6724522A20162F6700772FD4 /* PREConverseInitialDataOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseInitialDataOperation.m; sourceTree = "<group>"; };
+		6724522D20162F6700772FD4 /* PREConverseTestJSONOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseTestJSONOperation.h; sourceTree = "<group>"; };
+		6724522E20162F6700772FD4 /* PREConverseTestJSONOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseTestJSONOperation.m; sourceTree = "<group>"; };
+		6724523020162F6700772FD4 /* PREConverseActionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseActionModel.h; sourceTree = "<group>"; };
+		6724523120162F6700772FD4 /* PREConverseActionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseActionModel.m; sourceTree = "<group>"; };
+		6724523220162F6700772FD4 /* PREConverseActionsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseActionsModel.h; sourceTree = "<group>"; };
+		6724523320162F6700772FD4 /* PREConverseActionsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseActionsModel.m; sourceTree = "<group>"; };
+		6724523420162F6700772FD4 /* PREConverseInitialDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseInitialDataModel.h; sourceTree = "<group>"; };
+		6724523520162F6700772FD4 /* PREConverseInitialDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseInitialDataModel.m; sourceTree = "<group>"; };
+		6724523620162F6700772FD4 /* PREConverseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseModel.h; sourceTree = "<group>"; };
+		6724523720162F6700772FD4 /* PREConverseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseModel.m; sourceTree = "<group>"; };
+		6724523820162F6700772FD4 /* PRELocalAppManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRELocalAppManager.h; sourceTree = "<group>"; };
+		6724523920162F6700772FD4 /* PRELocalAppManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRELocalAppManager.m; sourceTree = "<group>"; };
+		6724523A20162F6700772FD4 /* PRELocalAppRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRELocalAppRequestManager.h; sourceTree = "<group>"; };
+		6724523B20162F6700772FD4 /* PRELocalAppRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRELocalAppRequestManager.m; sourceTree = "<group>"; };
+		6724523D20162F6700772FD4 /* PREConverseInitialDataViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseInitialDataViewModel.h; sourceTree = "<group>"; };
+		6724523E20162F6700772FD4 /* PREConverseInitialDataViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseInitialDataViewModel.m; sourceTree = "<group>"; };
+		6724523F20162F6700772FD4 /* PREConverseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseViewModel.h; sourceTree = "<group>"; };
+		6724524020162F6700772FD4 /* PREConverseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseViewModel.m; sourceTree = "<group>"; };
+		6724524320162F6700772FD4 /* PREConverseInitialDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseInitialDataViewController.h; sourceTree = "<group>"; };
+		6724524420162F6700772FD4 /* PREConverseInitialDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseInitialDataViewController.m; sourceTree = "<group>"; };
+		6724524520162F6700772FD4 /* PREConverseInitialDataViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PREConverseInitialDataViewController.xib; sourceTree = "<group>"; };
+		6724524620162F6700772FD4 /* PREConverseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseViewController.h; sourceTree = "<group>"; };
+		6724524720162F6700772FD4 /* PREConverseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseViewController.m; sourceTree = "<group>"; };
+		6724524920162F6700772FD4 /* PREConverseInitialDataViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseInitialDataViewModel.h; sourceTree = "<group>"; };
+		6724524A20162F6700772FD4 /* PREConverseInitialDataViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseInitialDataViewModel.m; sourceTree = "<group>"; };
+		6724524B20162F6700772FD4 /* PREConverseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseViewModel.h; sourceTree = "<group>"; };
+		6724524C20162F6700772FD4 /* PREConverseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseViewModel.m; sourceTree = "<group>"; };
+		6724524F20162F6700772FD4 /* PREConverseInitialDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseInitialDataViewController.h; sourceTree = "<group>"; };
+		6724525020162F6700772FD4 /* PREConverseInitialDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseInitialDataViewController.m; sourceTree = "<group>"; };
+		6724525120162F6700772FD4 /* PREConverseInitialDataViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PREConverseInitialDataViewController.xib; sourceTree = "<group>"; };
+		6724525220162F6700772FD4 /* PREConverseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseViewController.h; sourceTree = "<group>"; };
+		6724525320162F6700772FD4 /* PREConverseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseViewController.m; sourceTree = "<group>"; };
+		6724525720162F6900772FD4 /* PREConverseAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseAPIClient.h; sourceTree = "<group>"; };
+		6724525820162F6900772FD4 /* PREConverseAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseAPIClient.m; sourceTree = "<group>"; };
+		6724525920162F6900772FD4 /* PREConverseAPIMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseAPIMethod.h; sourceTree = "<group>"; };
+		6724525A20162F6900772FD4 /* PREConverseAPIMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseAPIMethod.m; sourceTree = "<group>"; };
+		6724525B20162F6900772FD4 /* PREConverseAPIRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseAPIRequest.h; sourceTree = "<group>"; };
+		6724525C20162F6900772FD4 /* PREConverseAPIRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseAPIRequest.m; sourceTree = "<group>"; };
+		6724525D20162F6900772FD4 /* PREConverseAPIResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseAPIResponse.h; sourceTree = "<group>"; };
+		6724525E20162F6900772FD4 /* PREConverseAPIResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseAPIResponse.m; sourceTree = "<group>"; };
+		6724525F20162F6900772FD4 /* PREConverseNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseNetworking.h; sourceTree = "<group>"; };
+		6724526220162F6900772FD4 /* PREConverseActionRequest_FAKE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseActionRequest_FAKE.h; sourceTree = "<group>"; };
+		6724526320162F6900772FD4 /* PREConverseActionRequest_FAKE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseActionRequest_FAKE.m; sourceTree = "<group>"; };
+		6724526420162F6900772FD4 /* PREConverseActionResponse_FAKE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseActionResponse_FAKE.h; sourceTree = "<group>"; };
+		6724526520162F6900772FD4 /* PREConverseActionResponse_FAKE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseActionResponse_FAKE.m; sourceTree = "<group>"; };
+		6724526720162F6900772FD4 /* PREConverseActionsRequest_FAKE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseActionsRequest_FAKE.h; sourceTree = "<group>"; };
+		6724526820162F6900772FD4 /* PREConverseActionsRequest_FAKE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseActionsRequest_FAKE.m; sourceTree = "<group>"; };
+		6724526920162F6900772FD4 /* PREConverseActionsResponse_FAKE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseActionsResponse_FAKE.h; sourceTree = "<group>"; };
+		6724526A20162F6900772FD4 /* PREConverseActionsResponse_FAKE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseActionsResponse_FAKE.m; sourceTree = "<group>"; };
+		6724526C20162F6900772FD4 /* PREConverseInitialDataRequest_FAKE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseInitialDataRequest_FAKE.h; sourceTree = "<group>"; };
+		6724526D20162F6900772FD4 /* PREConverseInitialDataRequest_FAKE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseInitialDataRequest_FAKE.m; sourceTree = "<group>"; };
+		6724526E20162F6900772FD4 /* PREConverseInitialDataResponse_FAKE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseInitialDataResponse_FAKE.h; sourceTree = "<group>"; };
+		6724526F20162F6900772FD4 /* PREConverseInitialDataResponse_FAKE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseInitialDataResponse_FAKE.m; sourceTree = "<group>"; };
+		6724527020162F6900772FD4 /* PREConverseDefaultNetworkClient_FAKE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseDefaultNetworkClient_FAKE.h; sourceTree = "<group>"; };
+		6724527120162F6900772FD4 /* PREConverseDefaultNetworkClient_FAKE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseDefaultNetworkClient_FAKE.m; sourceTree = "<group>"; };
+		6724527420162F6900772FD4 /* PREConverseActionRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseActionRequest.h; sourceTree = "<group>"; };
+		6724527520162F6900772FD4 /* PREConverseActionRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseActionRequest.m; sourceTree = "<group>"; };
+		6724527620162F6900772FD4 /* PREConverseActionResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseActionResponse.h; sourceTree = "<group>"; };
+		6724527720162F6900772FD4 /* PREConverseActionResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseActionResponse.m; sourceTree = "<group>"; };
+		6724527920162F6900772FD4 /* PREConverseActionsRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseActionsRequest.h; sourceTree = "<group>"; };
+		6724527A20162F6900772FD4 /* PREConverseActionsRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseActionsRequest.m; sourceTree = "<group>"; };
+		6724527B20162F6900772FD4 /* PREConverseActionsResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseActionsResponse.h; sourceTree = "<group>"; };
+		6724527C20162F6900772FD4 /* PREConverseActionsResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseActionsResponse.m; sourceTree = "<group>"; };
+		6724527E20162F6900772FD4 /* PREConverseInitialDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseInitialDataRequest.h; sourceTree = "<group>"; };
+		6724527F20162F6900772FD4 /* PREConverseInitialDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseInitialDataRequest.m; sourceTree = "<group>"; };
+		6724528020162F6900772FD4 /* PREConverseInitialDataResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseInitialDataResponse.h; sourceTree = "<group>"; };
+		6724528120162F6900772FD4 /* PREConverseInitialDataResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseInitialDataResponse.m; sourceTree = "<group>"; };
+		6724528220162F6900772FD4 /* PREConverseDefaultNetworkClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseDefaultNetworkClient.h; sourceTree = "<group>"; };
+		6724528320162F6900772FD4 /* PREConverseDefaultNetworkClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseDefaultNetworkClient.m; sourceTree = "<group>"; };
+		6724528420162F6900772FD4 /* PREConverseDefaultRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseDefaultRequest.h; sourceTree = "<group>"; };
+		6724528520162F6900772FD4 /* PREConverseDefaultRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseDefaultRequest.m; sourceTree = "<group>"; };
+		6724528620162F6900772FD4 /* PREConverseDefaultRequestParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseDefaultRequestParameters.h; sourceTree = "<group>"; };
+		6724528720162F6900772FD4 /* PREConverseDefaultRequestParameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseDefaultRequestParameters.m; sourceTree = "<group>"; };
+		6724528820162F6900772FD4 /* PREConverseDefaultResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseDefaultResponse.h; sourceTree = "<group>"; };
+		6724528920162F6900772FD4 /* PREConverseDefaultResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseDefaultResponse.m; sourceTree = "<group>"; };
+		6724528B20162F6900772FD4 /* PREConverseTestClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseTestClient.m; sourceTree = "<group>"; };
+		6724528C20162F6900772FD4 /* PREConverseTestNetworkClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseTestNetworkClient.h; sourceTree = "<group>"; };
+		6724528D20162F6900772FD4 /* PREConverseTestNetworkClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseTestNetworkClient.m; sourceTree = "<group>"; };
+		6724528E20162F6900772FD4 /* PREConverseTestRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseTestRequest.h; sourceTree = "<group>"; };
+		6724528F20162F6900772FD4 /* PREConverseTestRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseTestRequest.m; sourceTree = "<group>"; };
+		6724529120162F6900772FD4 /* PREConverseTestJSONRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseTestJSONRequest.h; sourceTree = "<group>"; };
+		6724529220162F6900772FD4 /* PREConverseTestJSONRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseTestJSONRequest.m; sourceTree = "<group>"; };
+		6724529320162F6900772FD4 /* PREConverseTestJSONResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseTestJSONResponse.h; sourceTree = "<group>"; };
+		6724529420162F6900772FD4 /* PREConverseTestJSONResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseTestJSONResponse.m; sourceTree = "<group>"; };
+		6724529820162F6900772FD4 /* PREConverseOperationNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseOperationNetworkManager.h; sourceTree = "<group>"; };
+		6724529920162F6900772FD4 /* PREConverseOperationNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseOperationNetworkManager.m; sourceTree = "<group>"; };
+		6724529A20162F6900772FD4 /* PREConverseOperationQueueManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseOperationQueueManager.h; sourceTree = "<group>"; };
+		6724529B20162F6900772FD4 /* PREConverseOperationQueueManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseOperationQueueManager.m; sourceTree = "<group>"; };
+		6724529D20162F6900772FD4 /* PREConverseOperationNetworkTestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseOperationNetworkTestManager.h; sourceTree = "<group>"; };
+		6724529E20162F6900772FD4 /* PREConverseOperationNetworkTestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseOperationNetworkTestManager.m; sourceTree = "<group>"; };
+		672452A120162F6900772FD4 /* PREConverseDefaultOperationClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseDefaultOperationClient.h; sourceTree = "<group>"; };
+		672452A220162F6900772FD4 /* PREConverseDefaultOperationClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseDefaultOperationClient.m; sourceTree = "<group>"; };
+		672452A320162F6900772FD4 /* PREConverseTestOperationClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseTestOperationClient.h; sourceTree = "<group>"; };
+		672452A420162F6900772FD4 /* PREConverseTestOperationClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseTestOperationClient.m; sourceTree = "<group>"; };
+		672452A820162F6900772FD4 /* PREConverseAPIBaseOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseAPIBaseOperation.h; sourceTree = "<group>"; };
+		672452A920162F6900772FD4 /* PREConverseAPIBaseOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseAPIBaseOperation.m; sourceTree = "<group>"; };
+		672452AA20162F6900772FD4 /* PREConverseAPIDataOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseAPIDataOperation.h; sourceTree = "<group>"; };
+		672452AB20162F6900772FD4 /* PREConverseAPIDataOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseAPIDataOperation.m; sourceTree = "<group>"; };
+		672452AC20162F6900772FD4 /* PREConverseAPIDownloadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseAPIDownloadOperation.h; sourceTree = "<group>"; };
+		672452AD20162F6900772FD4 /* PREConverseAPIDownloadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseAPIDownloadOperation.m; sourceTree = "<group>"; };
+		672452AE20162F6900772FD4 /* PREConverseAPIStreamOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseAPIStreamOperation.h; sourceTree = "<group>"; };
+		672452AF20162F6900772FD4 /* PREConverseAPIStreamOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseAPIStreamOperation.m; sourceTree = "<group>"; };
+		672452B020162F6900772FD4 /* PREConverseAPIUploadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseAPIUploadOperation.h; sourceTree = "<group>"; };
+		672452B120162F6900772FD4 /* PREConverseAPIUploadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseAPIUploadOperation.m; sourceTree = "<group>"; };
+		672452B420162F6900772FD4 /* PREConverseActionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseActionOperation.h; sourceTree = "<group>"; };
+		672452B520162F6900772FD4 /* PREConverseActionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseActionOperation.m; sourceTree = "<group>"; };
+		672452B720162F6900772FD4 /* PREConverseActionsOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseActionsOperation.h; sourceTree = "<group>"; };
+		672452B820162F6900772FD4 /* PREConverseActionsOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseActionsOperation.m; sourceTree = "<group>"; };
+		672452BA20162F6900772FD4 /* PREConverseInitialDataOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseInitialDataOperation.h; sourceTree = "<group>"; };
+		672452BB20162F6900772FD4 /* PREConverseInitialDataOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseInitialDataOperation.m; sourceTree = "<group>"; };
+		672452BE20162F6900772FD4 /* PREConverseTestJSONOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREConverseTestJSONOperation.h; sourceTree = "<group>"; };
+		672452BF20162F6900772FD4 /* PREConverseTestJSONOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREConverseTestJSONOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +719,11 @@
 		6724504E20162E6200772FD4 /* TestApp */ = {
 			isa = PBXGroup;
 			children = (
+				6724516F20162F6700772FD4 /* LocalApps */,
+				6724525420162F6900772FD4 /* Networking */,
+				6724524820162F6700772FD4 /* ViewModels */,
+				6724524D20162F6700772FD4 /* Views */,
+				6724508420162F4400772FD4 /* Style */,
 				6724504F20162E6200772FD4 /* AppDelegate.h */,
 				6724505020162E6200772FD4 /* AppDelegate.m */,
 				6724505220162E6200772FD4 /* ViewController.h */,
@@ -133,6 +754,1179 @@
 				6724507820162E6200772FD4 /* Info.plist */,
 			);
 			path = TestAppUITests;
+			sourceTree = "<group>";
+		};
+		6724508420162F4400772FD4 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				6724508520162F4400772FD4 /* AppearanceProxy */,
+				6724508A20162F4400772FD4 /* Assets */,
+				6724509D20162F4400772FD4 /* Color */,
+				672450A020162F4400772FD4 /* ParentBaseAppearance */,
+				672450BF20162F4400772FD4 /* PREThemeManager.h */,
+				672450C020162F4400772FD4 /* PREThemeManager.m */,
+				672450C120162F4400772FD4 /* Theme Abstract Factory */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		6724508520162F4400772FD4 /* AppearanceProxy */ = {
+			isa = PBXGroup;
+			children = (
+				6724508620162F4400772FD4 /* NSInvocation+Copy.h */,
+				6724508720162F4400772FD4 /* NSInvocation+Copy.m */,
+				6724508820162F4400772FD4 /* PREAppearance.h */,
+				6724508920162F4400772FD4 /* PREAppearance.m */,
+			);
+			path = AppearanceProxy;
+			sourceTree = "<group>";
+		};
+		6724508A20162F4400772FD4 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				6724508B20162F4400772FD4 /* Assets.xcassets */,
+				6724508C20162F4400772FD4 /* Cordant */,
+				6724508E20162F4400772FD4 /* Corporate */,
+				6724509320162F4400772FD4 /* DowJones */,
+				6724509720162F4400772FD4 /* Helvetia */,
+				6724509920162F4400772FD4 /* Strabag */,
+				6724509B20162F4400772FD4 /* WellCare */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		6724508C20162F4400772FD4 /* Cordant */ = {
+			isa = PBXGroup;
+			children = (
+				6724508D20162F4400772FD4 /* CordantSpirit_default.xcassets */,
+			);
+			path = Cordant;
+			sourceTree = "<group>";
+		};
+		6724508E20162F4400772FD4 /* Corporate */ = {
+			isa = PBXGroup;
+			children = (
+				6724508F20162F4400772FD4 /* Corporate_default.xcassets */,
+				6724509020162F4400772FD4 /* Corporate_th_black.xcassets */,
+				6724509120162F4400772FD4 /* Corporate_th_white.xcassets */,
+				6724509220162F4400772FD4 /* Corporate_th_white_and_matisse_blue.xcassets */,
+			);
+			path = Corporate;
+			sourceTree = "<group>";
+		};
+		6724509320162F4400772FD4 /* DowJones */ = {
+			isa = PBXGroup;
+			children = (
+				6724509420162F4400772FD4 /* DowJones_default.xcassets */,
+				6724509520162F4400772FD4 /* DowJones_th_black.xcassets */,
+				6724509620162F4400772FD4 /* DowJones_th_white_and_firefly_blue.xcassets */,
+			);
+			path = DowJones;
+			sourceTree = "<group>";
+		};
+		6724509720162F4400772FD4 /* Helvetia */ = {
+			isa = PBXGroup;
+			children = (
+				6724509820162F4400772FD4 /* Helvetia_default.xcassets */,
+			);
+			path = Helvetia;
+			sourceTree = "<group>";
+		};
+		6724509920162F4400772FD4 /* Strabag */ = {
+			isa = PBXGroup;
+			children = (
+				6724509A20162F4400772FD4 /* Strabag_default.xcassets */,
+			);
+			path = Strabag;
+			sourceTree = "<group>";
+		};
+		6724509B20162F4400772FD4 /* WellCare */ = {
+			isa = PBXGroup;
+			children = (
+				6724509C20162F4400772FD4 /* WellCare_default.xcassets */,
+			);
+			path = WellCare;
+			sourceTree = "<group>";
+		};
+		6724509D20162F4400772FD4 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				6724509E20162F4400772FD4 /* PREColor.h */,
+				6724509F20162F4400772FD4 /* PREColor.m */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		672450A020162F4400772FD4 /* ParentBaseAppearance */ = {
+			isa = PBXGroup;
+			children = (
+				672450A120162F4400772FD4 /* PREParentBaseAlertViewController.h */,
+				672450A220162F4400772FD4 /* PREParentBaseAlertViewController.m */,
+				672450A320162F4400772FD4 /* PREParentBaseAppearanceProtocols.h */,
+				672450A420162F4400772FD4 /* PREParentBaseCollectionReusableView.h */,
+				672450A520162F4400772FD4 /* PREParentBaseCollectionReusableView.m */,
+				672450A620162F4400772FD4 /* PREParentBaseCollectionReusableView.xib */,
+				672450A720162F4400772FD4 /* PREParentBaseCollectionViewCell.h */,
+				672450A820162F4400772FD4 /* PREParentBaseCollectionViewCell.m */,
+				672450A920162F4400772FD4 /* PREParentBaseCollectionViewCell.xib */,
+				672450AA20162F4400772FD4 /* PREParentBaseImagePickerController.h */,
+				672450AB20162F4400772FD4 /* PREParentBaseImagePickerController.m */,
+				672450AC20162F4400772FD4 /* PREParentBaseNavigationController.h */,
+				672450AD20162F4400772FD4 /* PREParentBaseNavigationController.m */,
+				672450AE20162F4400772FD4 /* PREParentBaseSplitViewController.h */,
+				672450AF20162F4400772FD4 /* PREParentBaseSplitViewController.m */,
+				672450B020162F4400772FD4 /* PREParentBaseSplitViewController.xib */,
+				672450B120162F4400772FD4 /* PREParentBaseTableViewCell.h */,
+				672450B220162F4400772FD4 /* PREParentBaseTableViewCell.m */,
+				672450B320162F4400772FD4 /* PREParentBaseTableViewCell.xib */,
+				672450B420162F4400772FD4 /* PREParentBaseTableViewController.h */,
+				672450B520162F4400772FD4 /* PREParentBaseTableViewController.m */,
+				672450B620162F4400772FD4 /* PREParentBaseTableViewController.xib */,
+				672450B720162F4400772FD4 /* PREParentBaseTableViewFooterView.h */,
+				672450B820162F4400772FD4 /* PREParentBaseTableViewFooterView.m */,
+				672450B920162F4400772FD4 /* PREParentBaseTableViewHeaderView.h */,
+				672450BA20162F4400772FD4 /* PREParentBaseTableViewHeaderView.m */,
+				672450BB20162F4400772FD4 /* PREParentBaseTableViewSectionView.h */,
+				672450BC20162F4400772FD4 /* PREParentBaseTableViewSectionView.m */,
+				672450BD20162F4400772FD4 /* PREParentBaseViewController.h */,
+				672450BE20162F4400772FD4 /* PREParentBaseViewController.m */,
+			);
+			path = ParentBaseAppearance;
+			sourceTree = "<group>";
+		};
+		672450C120162F4400772FD4 /* Theme Abstract Factory */ = {
+			isa = PBXGroup;
+			children = (
+				672450C220162F4400772FD4 /* Theme Content Factories */,
+				672450CE20162F4400772FD4 /* Theme Contents */,
+				6724511220162F4400772FD4 /* Theme Helpers */,
+				6724511820162F4400772FD4 /* Theme Stores */,
+				6724511F20162F4400772FD4 /* Themes */,
+			);
+			path = "Theme Abstract Factory";
+			sourceTree = "<group>";
+		};
+		672450C220162F4400772FD4 /* Theme Content Factories */ = {
+			isa = PBXGroup;
+			children = (
+				672450C320162F4400772FD4 /* PREThemeContentsFactory.h */,
+				672450C420162F4400772FD4 /* PREThemeContentsFactoryCorporateBlack.h */,
+				672450C520162F4400772FD4 /* PREThemeContentsFactoryCorporateBlack.m */,
+				672450C620162F4400772FD4 /* PREThemeContentsFactoryCorporateWhite.h */,
+				672450C720162F4400772FD4 /* PREThemeContentsFactoryCorporateWhite.m */,
+				672450C820162F4400772FD4 /* PREThemeContentsFactoryCorporateWhiteAndMatisseBlue.h */,
+				672450C920162F4400772FD4 /* PREThemeContentsFactoryCorporateWhiteAndMatisseBlue.m */,
+				672450CA20162F4400772FD4 /* PREThemeContentsFactoryDowJonesBlack.h */,
+				672450CB20162F4400772FD4 /* PREThemeContentsFactoryDowJonesBlack.m */,
+				672450CC20162F4400772FD4 /* PREThemeContentsFactoryDowJonesWhiteAndFireflyBlue.h */,
+				672450CD20162F4400772FD4 /* PREThemeContentsFactoryDowJonesWhiteAndFireflyBlue.m */,
+			);
+			path = "Theme Content Factories";
+			sourceTree = "<group>";
+		};
+		672450CE20162F4400772FD4 /* Theme Contents */ = {
+			isa = PBXGroup;
+			children = (
+				672450CF20162F4400772FD4 /* PREThemeContentProtocol.h */,
+				672450D020162F4400772FD4 /* UI Switch Settings */,
+				672450D320162F4400772FD4 /* UIButton Settings */,
+				672450D620162F4400772FD4 /* UINavigation Bar Settings */,
+				672450D920162F4400772FD4 /* UIPageControl Settings */,
+				672450DC20162F4400772FD4 /* UISegmentedControl Settings */,
+				672450DF20162F4400772FD4 /* UITabBar Settings */,
+				672450E220162F4400772FD4 /* UIView Settings */,
+				6724510D20162F4400772FD4 /* Xclusive Target Settings */,
+			);
+			path = "Theme Contents";
+			sourceTree = "<group>";
+		};
+		672450D020162F4400772FD4 /* UI Switch Settings */ = {
+			isa = PBXGroup;
+			children = (
+				672450D120162F4400772FD4 /* PREThemeSwitchSettings.h */,
+				672450D220162F4400772FD4 /* PREThemeSwitchSettings.m */,
+			);
+			path = "UI Switch Settings";
+			sourceTree = "<group>";
+		};
+		672450D320162F4400772FD4 /* UIButton Settings */ = {
+			isa = PBXGroup;
+			children = (
+				672450D420162F4400772FD4 /* PREThemeButtonSettings.h */,
+				672450D520162F4400772FD4 /* PREThemeButtonSettings.m */,
+			);
+			path = "UIButton Settings";
+			sourceTree = "<group>";
+		};
+		672450D620162F4400772FD4 /* UINavigation Bar Settings */ = {
+			isa = PBXGroup;
+			children = (
+				672450D720162F4400772FD4 /* PREThemeNavigationBarSettings.h */,
+				672450D820162F4400772FD4 /* PREThemeNavigationBarSettings.m */,
+			);
+			path = "UINavigation Bar Settings";
+			sourceTree = "<group>";
+		};
+		672450D920162F4400772FD4 /* UIPageControl Settings */ = {
+			isa = PBXGroup;
+			children = (
+				672450DA20162F4400772FD4 /* PREThemePageControlSettings.h */,
+				672450DB20162F4400772FD4 /* PREThemePageControlSettings.m */,
+			);
+			path = "UIPageControl Settings";
+			sourceTree = "<group>";
+		};
+		672450DC20162F4400772FD4 /* UISegmentedControl Settings */ = {
+			isa = PBXGroup;
+			children = (
+				672450DD20162F4400772FD4 /* PREThemeSegmentedControlSettings.h */,
+				672450DE20162F4400772FD4 /* PREThemeSegmentedControlSettings.m */,
+			);
+			path = "UISegmentedControl Settings";
+			sourceTree = "<group>";
+		};
+		672450DF20162F4400772FD4 /* UITabBar Settings */ = {
+			isa = PBXGroup;
+			children = (
+				672450E020162F4400772FD4 /* PREThemeTabBarSettings.h */,
+				672450E120162F4400772FD4 /* PREThemeTabBarSettings.m */,
+			);
+			path = "UITabBar Settings";
+			sourceTree = "<group>";
+		};
+		672450E220162F4400772FD4 /* UIView Settings */ = {
+			isa = PBXGroup;
+			children = (
+				672450E320162F4400772FD4 /* Main */,
+				672450F020162F4400772FD4 /* PRECircleView */,
+				672450F920162F4400772FD4 /* PREThemeViewSettings.h */,
+				672450FA20162F4400772FD4 /* PREThemeViewSettings.m */,
+				672450FB20162F4400772FD4 /* PREToastView */,
+				6724510020162F4400772FD4 /* VOICalendarView */,
+			);
+			path = "UIView Settings";
+			sourceTree = "<group>";
+		};
+		672450E320162F4400772FD4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				672450E420162F4400772FD4 /* PREThemeMainViewSettings.h */,
+				672450E520162F4400772FD4 /* PREThemeMainViewSettings.m */,
+				672450E620162F4400772FD4 /* PREThemeMainViewSettingsBlack.h */,
+				672450E720162F4400772FD4 /* PREThemeMainViewSettingsBlack.m */,
+				672450E820162F4400772FD4 /* PREThemeMainViewSettingsBlackDJ.h */,
+				672450E920162F4400772FD4 /* PREThemeMainViewSettingsBlackDJ.m */,
+				672450EA20162F4400772FD4 /* PREThemeMainViewSettingsWhite.h */,
+				672450EB20162F4400772FD4 /* PREThemeMainViewSettingsWhite.m */,
+				672450EC20162F4400772FD4 /* PREThemeMainViewSettingsWhiteAndBlueFirefly.h */,
+				672450ED20162F4400772FD4 /* PREThemeMainViewSettingsWhiteAndBlueFirefly.m */,
+				672450EE20162F4400772FD4 /* PREThemeMainViewSettingsWhiteAndBlueMatisse.h */,
+				672450EF20162F4400772FD4 /* PREThemeMainViewSettingsWhiteAndBlueMatisse.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		672450F020162F4400772FD4 /* PRECircleView */ = {
+			isa = PBXGroup;
+			children = (
+				672450F120162F4400772FD4 /* PREThemeCircleViewSettings.h */,
+				672450F220162F4400772FD4 /* PREThemeCircleViewSettings.m */,
+				672450F320162F4400772FD4 /* PREThemeCircleViewSettingsBlueCerulean.h */,
+				672450F420162F4400772FD4 /* PREThemeCircleViewSettingsBlueCerulean.m */,
+				672450F520162F4400772FD4 /* PREThemeCircleViewSettingsBlueMatisse.h */,
+				672450F620162F4400772FD4 /* PREThemeCircleViewSettingsBlueMatisse.m */,
+				672450F720162F4400772FD4 /* PREThemeCircleViewSettingsGray.h */,
+				672450F820162F4400772FD4 /* PREThemeCircleViewSettingsGray.m */,
+			);
+			path = PRECircleView;
+			sourceTree = "<group>";
+		};
+		672450FB20162F4400772FD4 /* PREToastView */ = {
+			isa = PBXGroup;
+			children = (
+				672450FC20162F4400772FD4 /* PREThemeToastViewSettings.h */,
+				672450FD20162F4400772FD4 /* PREThemeToastViewSettings.m */,
+				672450FE20162F4400772FD4 /* PREThemeToastViewSettingsWhite.h */,
+				672450FF20162F4400772FD4 /* PREThemeToastViewSettingsWhite.m */,
+			);
+			path = PREToastView;
+			sourceTree = "<group>";
+		};
+		6724510020162F4400772FD4 /* VOICalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				6724510120162F4400772FD4 /* PREThemeCalendarViewSettings.h */,
+				6724510220162F4400772FD4 /* PREThemeCalendarViewSettings.m */,
+				6724510320162F4400772FD4 /* PREThemeCalendarViewSettingsBlackAndBlueCerulean.h */,
+				6724510420162F4400772FD4 /* PREThemeCalendarViewSettingsBlackAndBlueCerulean.m */,
+				6724510520162F4400772FD4 /* PREThemeCalendarViewSettingsBlackAndBlueViking.h */,
+				6724510620162F4400772FD4 /* PREThemeCalendarViewSettingsBlackAndBlueViking.m */,
+				6724510720162F4400772FD4 /* PREThemeCalendarViewSettingsWhiteAndBlueCerulean.h */,
+				6724510820162F4400772FD4 /* PREThemeCalendarViewSettingsWhiteAndBlueCerulean.m */,
+				6724510920162F4400772FD4 /* PREThemeCalendarViewSettingsWhiteAndBlueMatisse.h */,
+				6724510A20162F4400772FD4 /* PREThemeCalendarViewSettingsWhiteAndBlueMatisse.m */,
+				6724510B20162F4400772FD4 /* PREThemeCalendarViewSettingsWhiteAndGreenVidaLoca.h */,
+				6724510C20162F4400772FD4 /* PREThemeCalendarViewSettingsWhiteAndGreenVidaLoca.m */,
+			);
+			path = VOICalendarView;
+			sourceTree = "<group>";
+		};
+		6724510D20162F4400772FD4 /* Xclusive Target Settings */ = {
+			isa = PBXGroup;
+			children = (
+				6724510E20162F4400772FD4 /* PREThemeExclusiveTargetSettings.h */,
+				6724510F20162F4400772FD4 /* PREThemeExclusiveTargetSettings.m */,
+				6724511020162F4400772FD4 /* PREThemeExclusiveTargetSettingsDowJones.h */,
+				6724511120162F4400772FD4 /* PREThemeExclusiveTargetSettingsDowJones.m */,
+			);
+			path = "Xclusive Target Settings";
+			sourceTree = "<group>";
+		};
+		6724511220162F4400772FD4 /* Theme Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6724511320162F4400772FD4 /* PREThemeManagerDefines.h */,
+				6724511420162F4400772FD4 /* PREThemeModeHelper.h */,
+				6724511520162F4400772FD4 /* PREThemeModeHelper.m */,
+				6724511620162F4400772FD4 /* PREThemeStoreHelper.h */,
+				6724511720162F4400772FD4 /* PREThemeStoreHelper.m */,
+			);
+			path = "Theme Helpers";
+			sourceTree = "<group>";
+		};
+		6724511820162F4400772FD4 /* Theme Stores */ = {
+			isa = PBXGroup;
+			children = (
+				6724511920162F4400772FD4 /* PREThemeStore.h */,
+				6724511A20162F4400772FD4 /* PREThemeStore.m */,
+				6724511B20162F4400772FD4 /* PREThemeStoreCorporate.h */,
+				6724511C20162F4400772FD4 /* PREThemeStoreCorporate.m */,
+				6724511D20162F4400772FD4 /* PREThemeStoreDowJones.h */,
+				6724511E20162F4400772FD4 /* PREThemeStoreDowJones.m */,
+			);
+			path = "Theme Stores";
+			sourceTree = "<group>";
+		};
+		6724511F20162F4400772FD4 /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				6724512020162F4400772FD4 /* PRETheme.h */,
+				6724512120162F4400772FD4 /* PRETheme.m */,
+				6724512220162F4400772FD4 /* PREThemeCorporate.h */,
+				6724512320162F4400772FD4 /* PREThemeCorporate.m */,
+				6724512420162F4400772FD4 /* PREThemeDowJones.h */,
+				6724512520162F4400772FD4 /* PREThemeDowJones.m */,
+			);
+			path = Themes;
+			sourceTree = "<group>";
+		};
+		6724516F20162F6700772FD4 /* LocalApps */ = {
+			isa = PBXGroup;
+			children = (
+				6724517020162F6700772FD4 /* BussinesArchitecture */,
+				672451C020162F6700772FD4 /* Converse_default.xcassets */,
+				672451C120162F6700772FD4 /* ConverseNetworking */,
+				672451C320162F6700772FD4 /* Networking */,
+				6724522F20162F6700772FD4 /* Operations */,
+				6724523020162F6700772FD4 /* PREConverseActionModel.h */,
+				6724523120162F6700772FD4 /* PREConverseActionModel.m */,
+				6724523220162F6700772FD4 /* PREConverseActionsModel.h */,
+				6724523320162F6700772FD4 /* PREConverseActionsModel.m */,
+				6724523420162F6700772FD4 /* PREConverseInitialDataModel.h */,
+				6724523520162F6700772FD4 /* PREConverseInitialDataModel.m */,
+				6724523620162F6700772FD4 /* PREConverseModel.h */,
+				6724523720162F6700772FD4 /* PREConverseModel.m */,
+				6724523820162F6700772FD4 /* PRELocalAppManager.h */,
+				6724523920162F6700772FD4 /* PRELocalAppManager.m */,
+				6724523A20162F6700772FD4 /* PRELocalAppRequestManager.h */,
+				6724523B20162F6700772FD4 /* PRELocalAppRequestManager.m */,
+				6724523C20162F6700772FD4 /* ViewModels */,
+				6724524120162F6700772FD4 /* Views */,
+			);
+			path = LocalApps;
+			sourceTree = "<group>";
+		};
+		6724517020162F6700772FD4 /* BussinesArchitecture */ = {
+			isa = PBXGroup;
+			children = (
+				6724517120162F6700772FD4 /* DataModel */,
+				6724519820162F6700772FD4 /* LocalAppsAssets.xcassets */,
+				6724519920162F6700772FD4 /* PREActionDetailsViewController.h */,
+				6724519A20162F6700772FD4 /* PREActionDetailsViewController.m */,
+				6724519B20162F6700772FD4 /* PRECommandViewController.h */,
+				6724519C20162F6700772FD4 /* PRECommandViewController.m */,
+				6724519D20162F6700772FD4 /* PREComplianceTableViewCell.h */,
+				6724519E20162F6700772FD4 /* PREComplianceTableViewCell.m */,
+				6724519F20162F6700772FD4 /* PREComplianceTableViewCell.xib */,
+				672451A020162F6700772FD4 /* PREComplianceTableViewViewController.h */,
+				672451A120162F6700772FD4 /* PREComplianceTableViewViewController.m */,
+				672451A220162F6700772FD4 /* PREComplianceTableViewViewController.xib */,
+				672451A320162F6700772FD4 /* PREGoalContentTableViewCell.h */,
+				672451A420162F6700772FD4 /* PREGoalContentTableViewCell.m */,
+				672451A520162F6700772FD4 /* PREGoalContentTableViewCell.xib */,
+				672451A620162F6700772FD4 /* PREGoalContentTableViewController.h */,
+				672451A720162F6700772FD4 /* PREGoalContentTableViewController.m */,
+				672451A820162F6700772FD4 /* PREGoalContentTableViewController.xib */,
+				672451A920162F6700772FD4 /* PREGoalsTableViewController.h */,
+				672451AA20162F6700772FD4 /* PREGoalsTableViewController.m */,
+				672451AB20162F6700772FD4 /* PREGoalTableViewCell.h */,
+				672451AC20162F6700772FD4 /* PREGoalTableViewCell.m */,
+				672451AD20162F6700772FD4 /* PREGoalTableViewCell.xib */,
+				672451AE20162F6700772FD4 /* PREMainActionGroupTableViewController.h */,
+				672451AF20162F6700772FD4 /* PREMainActionGroupTableViewController.m */,
+				672451B020162F6700772FD4 /* PREMainActionGroupTableViewController.xib */,
+				672451B120162F6700772FD4 /* PREMainActionTableViewCell.h */,
+				672451B220162F6700772FD4 /* PREMainActionTableViewCell.m */,
+				672451B320162F6700772FD4 /* PREMainActionTableViewCell.xib */,
+				672451B420162F6700772FD4 /* PRERefreshTableViewProtocol.h */,
+				672451B520162F6700772FD4 /* PRESimpleFormViewController.h */,
+				672451B620162F6700772FD4 /* PRESimpleFormViewController.m */,
+				672451B720162F6700772FD4 /* PRESubActionTableViewCell.h */,
+				672451B820162F6700772FD4 /* PRESubActionTableViewCell.m */,
+				672451B920162F6700772FD4 /* PRESubActionTableViewCell.xib */,
+				672451BA20162F6700772FD4 /* PREWorkplaceViewController.h */,
+				672451BB20162F6700772FD4 /* PREWorkplaceViewController.m */,
+				672451BC20162F6700772FD4 /* SectionHeaderView.h */,
+				672451BD20162F6700772FD4 /* SectionHeaderView.m */,
+				672451BE20162F6700772FD4 /* SectionHeaderView.xib */,
+				672451BF20162F6700772FD4 /* workplace.storyboard */,
+			);
+			path = BussinesArchitecture;
+			sourceTree = "<group>";
+		};
+		6724517120162F6700772FD4 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				6724517220162F6700772FD4 /* PREAction.h */,
+				6724517320162F6700772FD4 /* PREAction.m */,
+				6724517420162F6700772FD4 /* PREActionWorkplace.h */,
+				6724517520162F6700772FD4 /* PREActionWorkplace.m */,
+				6724517620162F6700772FD4 /* PREAttribute.h */,
+				6724517720162F6700772FD4 /* PREAttribute.m */,
+				6724517820162F6700772FD4 /* PREBACommand.h */,
+				6724517920162F6700772FD4 /* PREBACommand.m */,
+				6724517A20162F6700772FD4 /* PREBAObject.h */,
+				6724517B20162F6700772FD4 /* PREBAObject.m */,
+				6724517C20162F6700772FD4 /* PRECommand.h */,
+				6724517D20162F6700772FD4 /* PRECommand.m */,
+				6724517E20162F6700772FD4 /* PREField.h */,
+				6724517F20162F6700772FD4 /* PREField.m */,
+				6724518020162F6700772FD4 /* PREForm.h */,
+				6724518120162F6700772FD4 /* PREForm.m */,
+				6724518220162F6700772FD4 /* PREGoal.h */,
+				6724518320162F6700772FD4 /* PREGoal.m */,
+				6724518420162F6700772FD4 /* PREGroup.h */,
+				6724518520162F6700772FD4 /* PREGroup.m */,
+				6724518620162F6700772FD4 /* PREInitialData.h */,
+				6724518720162F6700772FD4 /* PREInitialData.m */,
+				6724518820162F6700772FD4 /* PREItem.h */,
+				6724518920162F6700772FD4 /* PREItem.m */,
+				6724518A20162F6700772FD4 /* PREItemTemplate.h */,
+				6724518B20162F6700772FD4 /* PREItemTemplate.m */,
+				6724518C20162F6700772FD4 /* PREMainAction.h */,
+				6724518D20162F6700772FD4 /* PREMainAction.m */,
+				6724518E20162F6700772FD4 /* PREMainActionGroup.h */,
+				6724518F20162F6700772FD4 /* PREMainActionGroup.m */,
+				6724519020162F6700772FD4 /* PREMenu.h */,
+				6724519120162F6700772FD4 /* PREMenu.m */,
+				6724519220162F6700772FD4 /* PREValidator.h */,
+				6724519320162F6700772FD4 /* PREValidator.m */,
+				6724519420162F6700772FD4 /* PREWorkplace.h */,
+				6724519520162F6700772FD4 /* PREWorkplace.m */,
+				6724519620162F6700772FD4 /* PREWorkplaceCommand.h */,
+				6724519720162F6700772FD4 /* PREWorkplaceCommand.m */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		672451C120162F6700772FD4 /* ConverseNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				672451C220162F6700772FD4 /* Helpers */,
+			);
+			path = ConverseNetworking;
+			sourceTree = "<group>";
+		};
+		672451C220162F6700772FD4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		672451C320162F6700772FD4 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				672451C420162F6700772FD4 /* Network */,
+				6724520420162F6700772FD4 /* Operations */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		672451C420162F6700772FD4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				672451C520162F6700772FD4 /* API */,
+				672451CF20162F6700772FD4 /* FAKE */,
+				672451E120162F6700772FD4 /* Implementation */,
+				672451F920162F6700772FD4 /* Test */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		672451C520162F6700772FD4 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				672451C620162F6700772FD4 /* PREConverseAPIClient.h */,
+				672451C720162F6700772FD4 /* PREConverseAPIClient.m */,
+				672451C820162F6700772FD4 /* PREConverseAPIMethod.h */,
+				672451C920162F6700772FD4 /* PREConverseAPIMethod.m */,
+				672451CA20162F6700772FD4 /* PREConverseAPIRequest.h */,
+				672451CB20162F6700772FD4 /* PREConverseAPIRequest.m */,
+				672451CC20162F6700772FD4 /* PREConverseAPIResponse.h */,
+				672451CD20162F6700772FD4 /* PREConverseAPIResponse.m */,
+				672451CE20162F6700772FD4 /* PREConverseNetworking.h */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		672451CF20162F6700772FD4 /* FAKE */ = {
+			isa = PBXGroup;
+			children = (
+				672451D020162F6700772FD4 /* Action */,
+				672451D520162F6700772FD4 /* Actions */,
+				672451DA20162F6700772FD4 /* Initial-Data */,
+				672451DF20162F6700772FD4 /* PREConverseDefaultNetworkClient_FAKE.h */,
+				672451E020162F6700772FD4 /* PREConverseDefaultNetworkClient_FAKE.m */,
+			);
+			path = FAKE;
+			sourceTree = "<group>";
+		};
+		672451D020162F6700772FD4 /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				672451D120162F6700772FD4 /* PREConverseActionRequest_FAKE.h */,
+				672451D220162F6700772FD4 /* PREConverseActionRequest_FAKE.m */,
+				672451D320162F6700772FD4 /* PREConverseActionResponse_FAKE.h */,
+				672451D420162F6700772FD4 /* PREConverseActionResponse_FAKE.m */,
+			);
+			path = Action;
+			sourceTree = "<group>";
+		};
+		672451D520162F6700772FD4 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				672451D620162F6700772FD4 /* PREConverseActionsRequest_FAKE.h */,
+				672451D720162F6700772FD4 /* PREConverseActionsRequest_FAKE.m */,
+				672451D820162F6700772FD4 /* PREConverseActionsResponse_FAKE.h */,
+				672451D920162F6700772FD4 /* PREConverseActionsResponse_FAKE.m */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		672451DA20162F6700772FD4 /* Initial-Data */ = {
+			isa = PBXGroup;
+			children = (
+				672451DB20162F6700772FD4 /* PREConverseInitialDataRequest_FAKE.h */,
+				672451DC20162F6700772FD4 /* PREConverseInitialDataRequest_FAKE.m */,
+				672451DD20162F6700772FD4 /* PREConverseInitialDataResponse_FAKE.h */,
+				672451DE20162F6700772FD4 /* PREConverseInitialDataResponse_FAKE.m */,
+			);
+			path = "Initial-Data";
+			sourceTree = "<group>";
+		};
+		672451E120162F6700772FD4 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				672451E220162F6700772FD4 /* Action */,
+				672451E720162F6700772FD4 /* Actions */,
+				672451EC20162F6700772FD4 /* Initial-Data */,
+				672451F120162F6700772FD4 /* PREConverseDefaultNetworkClient.h */,
+				672451F220162F6700772FD4 /* PREConverseDefaultNetworkClient.m */,
+				672451F320162F6700772FD4 /* PREConverseDefaultRequest.h */,
+				672451F420162F6700772FD4 /* PREConverseDefaultRequest.m */,
+				672451F520162F6700772FD4 /* PREConverseDefaultRequestParameters.h */,
+				672451F620162F6700772FD4 /* PREConverseDefaultRequestParameters.m */,
+				672451F720162F6700772FD4 /* PREConverseDefaultResponse.h */,
+				672451F820162F6700772FD4 /* PREConverseDefaultResponse.m */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		672451E220162F6700772FD4 /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				672451E320162F6700772FD4 /* PREConverseActionRequest.h */,
+				672451E420162F6700772FD4 /* PREConverseActionRequest.m */,
+				672451E520162F6700772FD4 /* PREConverseActionResponse.h */,
+				672451E620162F6700772FD4 /* PREConverseActionResponse.m */,
+			);
+			path = Action;
+			sourceTree = "<group>";
+		};
+		672451E720162F6700772FD4 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				672451E820162F6700772FD4 /* PREConverseActionsRequest.h */,
+				672451E920162F6700772FD4 /* PREConverseActionsRequest.m */,
+				672451EA20162F6700772FD4 /* PREConverseActionsResponse.h */,
+				672451EB20162F6700772FD4 /* PREConverseActionsResponse.m */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		672451EC20162F6700772FD4 /* Initial-Data */ = {
+			isa = PBXGroup;
+			children = (
+				672451ED20162F6700772FD4 /* PREConverseInitialDataRequest.h */,
+				672451EE20162F6700772FD4 /* PREConverseInitialDataRequest.m */,
+				672451EF20162F6700772FD4 /* PREConverseInitialDataResponse.h */,
+				672451F020162F6700772FD4 /* PREConverseInitialDataResponse.m */,
+			);
+			path = "Initial-Data";
+			sourceTree = "<group>";
+		};
+		672451F920162F6700772FD4 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				672451FA20162F6700772FD4 /* PREConverseTestClient.m */,
+				672451FB20162F6700772FD4 /* PREConverseTestNetworkClient.h */,
+				672451FC20162F6700772FD4 /* PREConverseTestNetworkClient.m */,
+				672451FD20162F6700772FD4 /* PREConverseTestRequest.h */,
+				672451FE20162F6700772FD4 /* PREConverseTestRequest.m */,
+				672451FF20162F6700772FD4 /* TestJSON */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		672451FF20162F6700772FD4 /* TestJSON */ = {
+			isa = PBXGroup;
+			children = (
+				6724520020162F6700772FD4 /* PREConverseTestJSONRequest.h */,
+				6724520120162F6700772FD4 /* PREConverseTestJSONRequest.m */,
+				6724520220162F6700772FD4 /* PREConverseTestJSONResponse.h */,
+				6724520320162F6700772FD4 /* PREConverseTestJSONResponse.m */,
+			);
+			path = TestJSON;
+			sourceTree = "<group>";
+		};
+		6724520420162F6700772FD4 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				6724520520162F6700772FD4 /* Manager */,
+				6724520E20162F6700772FD4 /* NetworkExtensions */,
+				6724521520162F6700772FD4 /* Operation */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		6724520520162F6700772FD4 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				6724520620162F6700772FD4 /* Implementation */,
+				6724520720162F6700772FD4 /* PREConverseOperationNetworkManager.h */,
+				6724520820162F6700772FD4 /* PREConverseOperationNetworkManager.m */,
+				6724520920162F6700772FD4 /* PREConverseOperationQueueManager.h */,
+				6724520A20162F6700772FD4 /* PREConverseOperationQueueManager.m */,
+				6724520B20162F6700772FD4 /* Test */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		6724520620162F6700772FD4 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		6724520B20162F6700772FD4 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				6724520C20162F6700772FD4 /* PREConverseOperationNetworkTestManager.h */,
+				6724520D20162F6700772FD4 /* PREConverseOperationNetworkTestManager.m */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		6724520E20162F6700772FD4 /* NetworkExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				6724520F20162F6700772FD4 /* Implementation */,
+				6724521220162F6700772FD4 /* PREConverseTestOperationClient.h */,
+				6724521320162F6700772FD4 /* PREConverseTestOperationClient.m */,
+				6724521420162F6700772FD4 /* Test */,
+			);
+			path = NetworkExtensions;
+			sourceTree = "<group>";
+		};
+		6724520F20162F6700772FD4 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				6724521020162F6700772FD4 /* PREConverseDefaultOperationClient.h */,
+				6724521120162F6700772FD4 /* PREConverseDefaultOperationClient.m */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		6724521420162F6700772FD4 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		6724521520162F6700772FD4 /* Operation */ = {
+			isa = PBXGroup;
+			children = (
+				6724521620162F6700772FD4 /* API */,
+				6724522120162F6700772FD4 /* Implementation */,
+				6724522B20162F6700772FD4 /* Test */,
+			);
+			path = Operation;
+			sourceTree = "<group>";
+		};
+		6724521620162F6700772FD4 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6724521720162F6700772FD4 /* PREConverseAPIBaseOperation.h */,
+				6724521820162F6700772FD4 /* PREConverseAPIBaseOperation.m */,
+				6724521920162F6700772FD4 /* PREConverseAPIDataOperation.h */,
+				6724521A20162F6700772FD4 /* PREConverseAPIDataOperation.m */,
+				6724521B20162F6700772FD4 /* PREConverseAPIDownloadOperation.h */,
+				6724521C20162F6700772FD4 /* PREConverseAPIDownloadOperation.m */,
+				6724521D20162F6700772FD4 /* PREConverseAPIStreamOperation.h */,
+				6724521E20162F6700772FD4 /* PREConverseAPIStreamOperation.m */,
+				6724521F20162F6700772FD4 /* PREConverseAPIUploadOperation.h */,
+				6724522020162F6700772FD4 /* PREConverseAPIUploadOperation.m */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6724522120162F6700772FD4 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				6724522220162F6700772FD4 /* Action */,
+				6724522520162F6700772FD4 /* Actions */,
+				6724522820162F6700772FD4 /* Initial-Data */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		6724522220162F6700772FD4 /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				6724522320162F6700772FD4 /* PREConverseActionOperation.h */,
+				6724522420162F6700772FD4 /* PREConverseActionOperation.m */,
+			);
+			path = Action;
+			sourceTree = "<group>";
+		};
+		6724522520162F6700772FD4 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				6724522620162F6700772FD4 /* PREConverseActionsOperation.h */,
+				6724522720162F6700772FD4 /* PREConverseActionsOperation.m */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		6724522820162F6700772FD4 /* Initial-Data */ = {
+			isa = PBXGroup;
+			children = (
+				6724522920162F6700772FD4 /* PREConverseInitialDataOperation.h */,
+				6724522A20162F6700772FD4 /* PREConverseInitialDataOperation.m */,
+			);
+			path = "Initial-Data";
+			sourceTree = "<group>";
+		};
+		6724522B20162F6700772FD4 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				6724522C20162F6700772FD4 /* TestJSON */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		6724522C20162F6700772FD4 /* TestJSON */ = {
+			isa = PBXGroup;
+			children = (
+				6724522D20162F6700772FD4 /* PREConverseTestJSONOperation.h */,
+				6724522E20162F6700772FD4 /* PREConverseTestJSONOperation.m */,
+			);
+			path = TestJSON;
+			sourceTree = "<group>";
+		};
+		6724522F20162F6700772FD4 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		6724523C20162F6700772FD4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				6724523D20162F6700772FD4 /* PREConverseInitialDataViewModel.h */,
+				6724523E20162F6700772FD4 /* PREConverseInitialDataViewModel.m */,
+				6724523F20162F6700772FD4 /* PREConverseViewModel.h */,
+				6724524020162F6700772FD4 /* PREConverseViewModel.m */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6724524120162F6700772FD4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6724524220162F6700772FD4 /* InitialDataViewController */,
+				6724524620162F6700772FD4 /* PREConverseViewController.h */,
+				6724524720162F6700772FD4 /* PREConverseViewController.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6724524220162F6700772FD4 /* InitialDataViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6724524320162F6700772FD4 /* PREConverseInitialDataViewController.h */,
+				6724524420162F6700772FD4 /* PREConverseInitialDataViewController.m */,
+				6724524520162F6700772FD4 /* PREConverseInitialDataViewController.xib */,
+			);
+			path = InitialDataViewController;
+			sourceTree = "<group>";
+		};
+		6724524820162F6700772FD4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				6724524920162F6700772FD4 /* PREConverseInitialDataViewModel.h */,
+				6724524A20162F6700772FD4 /* PREConverseInitialDataViewModel.m */,
+				6724524B20162F6700772FD4 /* PREConverseViewModel.h */,
+				6724524C20162F6700772FD4 /* PREConverseViewModel.m */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6724524D20162F6700772FD4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6724524E20162F6700772FD4 /* InitialDataViewController */,
+				6724525220162F6700772FD4 /* PREConverseViewController.h */,
+				6724525320162F6700772FD4 /* PREConverseViewController.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6724524E20162F6700772FD4 /* InitialDataViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6724524F20162F6700772FD4 /* PREConverseInitialDataViewController.h */,
+				6724525020162F6700772FD4 /* PREConverseInitialDataViewController.m */,
+				6724525120162F6700772FD4 /* PREConverseInitialDataViewController.xib */,
+			);
+			path = InitialDataViewController;
+			sourceTree = "<group>";
+		};
+		6724525420162F6900772FD4 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				6724525520162F6900772FD4 /* Network */,
+				6724529520162F6900772FD4 /* Operations */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		6724525520162F6900772FD4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				6724525620162F6900772FD4 /* API */,
+				6724526020162F6900772FD4 /* FAKE */,
+				6724527220162F6900772FD4 /* Implementation */,
+				6724528A20162F6900772FD4 /* Test */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		6724525620162F6900772FD4 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6724525720162F6900772FD4 /* PREConverseAPIClient.h */,
+				6724525820162F6900772FD4 /* PREConverseAPIClient.m */,
+				6724525920162F6900772FD4 /* PREConverseAPIMethod.h */,
+				6724525A20162F6900772FD4 /* PREConverseAPIMethod.m */,
+				6724525B20162F6900772FD4 /* PREConverseAPIRequest.h */,
+				6724525C20162F6900772FD4 /* PREConverseAPIRequest.m */,
+				6724525D20162F6900772FD4 /* PREConverseAPIResponse.h */,
+				6724525E20162F6900772FD4 /* PREConverseAPIResponse.m */,
+				6724525F20162F6900772FD4 /* PREConverseNetworking.h */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6724526020162F6900772FD4 /* FAKE */ = {
+			isa = PBXGroup;
+			children = (
+				6724526120162F6900772FD4 /* Action */,
+				6724526620162F6900772FD4 /* Actions */,
+				6724526B20162F6900772FD4 /* Initial-Data */,
+				6724527020162F6900772FD4 /* PREConverseDefaultNetworkClient_FAKE.h */,
+				6724527120162F6900772FD4 /* PREConverseDefaultNetworkClient_FAKE.m */,
+			);
+			path = FAKE;
+			sourceTree = "<group>";
+		};
+		6724526120162F6900772FD4 /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				6724526220162F6900772FD4 /* PREConverseActionRequest_FAKE.h */,
+				6724526320162F6900772FD4 /* PREConverseActionRequest_FAKE.m */,
+				6724526420162F6900772FD4 /* PREConverseActionResponse_FAKE.h */,
+				6724526520162F6900772FD4 /* PREConverseActionResponse_FAKE.m */,
+			);
+			path = Action;
+			sourceTree = "<group>";
+		};
+		6724526620162F6900772FD4 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				6724526720162F6900772FD4 /* PREConverseActionsRequest_FAKE.h */,
+				6724526820162F6900772FD4 /* PREConverseActionsRequest_FAKE.m */,
+				6724526920162F6900772FD4 /* PREConverseActionsResponse_FAKE.h */,
+				6724526A20162F6900772FD4 /* PREConverseActionsResponse_FAKE.m */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		6724526B20162F6900772FD4 /* Initial-Data */ = {
+			isa = PBXGroup;
+			children = (
+				6724526C20162F6900772FD4 /* PREConverseInitialDataRequest_FAKE.h */,
+				6724526D20162F6900772FD4 /* PREConverseInitialDataRequest_FAKE.m */,
+				6724526E20162F6900772FD4 /* PREConverseInitialDataResponse_FAKE.h */,
+				6724526F20162F6900772FD4 /* PREConverseInitialDataResponse_FAKE.m */,
+			);
+			path = "Initial-Data";
+			sourceTree = "<group>";
+		};
+		6724527220162F6900772FD4 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				6724527320162F6900772FD4 /* Action */,
+				6724527820162F6900772FD4 /* Actions */,
+				6724527D20162F6900772FD4 /* Initial-Data */,
+				6724528220162F6900772FD4 /* PREConverseDefaultNetworkClient.h */,
+				6724528320162F6900772FD4 /* PREConverseDefaultNetworkClient.m */,
+				6724528420162F6900772FD4 /* PREConverseDefaultRequest.h */,
+				6724528520162F6900772FD4 /* PREConverseDefaultRequest.m */,
+				6724528620162F6900772FD4 /* PREConverseDefaultRequestParameters.h */,
+				6724528720162F6900772FD4 /* PREConverseDefaultRequestParameters.m */,
+				6724528820162F6900772FD4 /* PREConverseDefaultResponse.h */,
+				6724528920162F6900772FD4 /* PREConverseDefaultResponse.m */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		6724527320162F6900772FD4 /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				6724527420162F6900772FD4 /* PREConverseActionRequest.h */,
+				6724527520162F6900772FD4 /* PREConverseActionRequest.m */,
+				6724527620162F6900772FD4 /* PREConverseActionResponse.h */,
+				6724527720162F6900772FD4 /* PREConverseActionResponse.m */,
+			);
+			path = Action;
+			sourceTree = "<group>";
+		};
+		6724527820162F6900772FD4 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				6724527920162F6900772FD4 /* PREConverseActionsRequest.h */,
+				6724527A20162F6900772FD4 /* PREConverseActionsRequest.m */,
+				6724527B20162F6900772FD4 /* PREConverseActionsResponse.h */,
+				6724527C20162F6900772FD4 /* PREConverseActionsResponse.m */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		6724527D20162F6900772FD4 /* Initial-Data */ = {
+			isa = PBXGroup;
+			children = (
+				6724527E20162F6900772FD4 /* PREConverseInitialDataRequest.h */,
+				6724527F20162F6900772FD4 /* PREConverseInitialDataRequest.m */,
+				6724528020162F6900772FD4 /* PREConverseInitialDataResponse.h */,
+				6724528120162F6900772FD4 /* PREConverseInitialDataResponse.m */,
+			);
+			path = "Initial-Data";
+			sourceTree = "<group>";
+		};
+		6724528A20162F6900772FD4 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				6724528B20162F6900772FD4 /* PREConverseTestClient.m */,
+				6724528C20162F6900772FD4 /* PREConverseTestNetworkClient.h */,
+				6724528D20162F6900772FD4 /* PREConverseTestNetworkClient.m */,
+				6724528E20162F6900772FD4 /* PREConverseTestRequest.h */,
+				6724528F20162F6900772FD4 /* PREConverseTestRequest.m */,
+				6724529020162F6900772FD4 /* TestJSON */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		6724529020162F6900772FD4 /* TestJSON */ = {
+			isa = PBXGroup;
+			children = (
+				6724529120162F6900772FD4 /* PREConverseTestJSONRequest.h */,
+				6724529220162F6900772FD4 /* PREConverseTestJSONRequest.m */,
+				6724529320162F6900772FD4 /* PREConverseTestJSONResponse.h */,
+				6724529420162F6900772FD4 /* PREConverseTestJSONResponse.m */,
+			);
+			path = TestJSON;
+			sourceTree = "<group>";
+		};
+		6724529520162F6900772FD4 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				6724529620162F6900772FD4 /* Manager */,
+				6724529F20162F6900772FD4 /* NetworkExtensions */,
+				672452A620162F6900772FD4 /* Operation */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		6724529620162F6900772FD4 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				6724529720162F6900772FD4 /* Implementation */,
+				6724529820162F6900772FD4 /* PREConverseOperationNetworkManager.h */,
+				6724529920162F6900772FD4 /* PREConverseOperationNetworkManager.m */,
+				6724529A20162F6900772FD4 /* PREConverseOperationQueueManager.h */,
+				6724529B20162F6900772FD4 /* PREConverseOperationQueueManager.m */,
+				6724529C20162F6900772FD4 /* Test */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		6724529720162F6900772FD4 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		6724529C20162F6900772FD4 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				6724529D20162F6900772FD4 /* PREConverseOperationNetworkTestManager.h */,
+				6724529E20162F6900772FD4 /* PREConverseOperationNetworkTestManager.m */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		6724529F20162F6900772FD4 /* NetworkExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				672452A020162F6900772FD4 /* Implementation */,
+				672452A320162F6900772FD4 /* PREConverseTestOperationClient.h */,
+				672452A420162F6900772FD4 /* PREConverseTestOperationClient.m */,
+				672452A520162F6900772FD4 /* Test */,
+			);
+			path = NetworkExtensions;
+			sourceTree = "<group>";
+		};
+		672452A020162F6900772FD4 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				672452A120162F6900772FD4 /* PREConverseDefaultOperationClient.h */,
+				672452A220162F6900772FD4 /* PREConverseDefaultOperationClient.m */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		672452A520162F6900772FD4 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		672452A620162F6900772FD4 /* Operation */ = {
+			isa = PBXGroup;
+			children = (
+				672452A720162F6900772FD4 /* API */,
+				672452B220162F6900772FD4 /* Implementation */,
+				672452BC20162F6900772FD4 /* Test */,
+			);
+			path = Operation;
+			sourceTree = "<group>";
+		};
+		672452A720162F6900772FD4 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				672452A820162F6900772FD4 /* PREConverseAPIBaseOperation.h */,
+				672452A920162F6900772FD4 /* PREConverseAPIBaseOperation.m */,
+				672452AA20162F6900772FD4 /* PREConverseAPIDataOperation.h */,
+				672452AB20162F6900772FD4 /* PREConverseAPIDataOperation.m */,
+				672452AC20162F6900772FD4 /* PREConverseAPIDownloadOperation.h */,
+				672452AD20162F6900772FD4 /* PREConverseAPIDownloadOperation.m */,
+				672452AE20162F6900772FD4 /* PREConverseAPIStreamOperation.h */,
+				672452AF20162F6900772FD4 /* PREConverseAPIStreamOperation.m */,
+				672452B020162F6900772FD4 /* PREConverseAPIUploadOperation.h */,
+				672452B120162F6900772FD4 /* PREConverseAPIUploadOperation.m */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		672452B220162F6900772FD4 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				672452B320162F6900772FD4 /* Action */,
+				672452B620162F6900772FD4 /* Actions */,
+				672452B920162F6900772FD4 /* Initial-Data */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		672452B320162F6900772FD4 /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				672452B420162F6900772FD4 /* PREConverseActionOperation.h */,
+				672452B520162F6900772FD4 /* PREConverseActionOperation.m */,
+			);
+			path = Action;
+			sourceTree = "<group>";
+		};
+		672452B620162F6900772FD4 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				672452B720162F6900772FD4 /* PREConverseActionsOperation.h */,
+				672452B820162F6900772FD4 /* PREConverseActionsOperation.m */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		672452B920162F6900772FD4 /* Initial-Data */ = {
+			isa = PBXGroup;
+			children = (
+				672452BA20162F6900772FD4 /* PREConverseInitialDataOperation.h */,
+				672452BB20162F6900772FD4 /* PREConverseInitialDataOperation.m */,
+			);
+			path = "Initial-Data";
+			sourceTree = "<group>";
+		};
+		672452BC20162F6900772FD4 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				672452BD20162F6900772FD4 /* TestJSON */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		672452BD20162F6900772FD4 /* TestJSON */ = {
+			isa = PBXGroup;
+			children = (
+				672452BE20162F6900772FD4 /* PREConverseTestJSONOperation.h */,
+				672452BF20162F6900772FD4 /* PREConverseTestJSONOperation.m */,
+			);
+			path = TestJSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,9 +2035,40 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				672452E720162F6900772FD4 /* PRESubActionTableViewCell.xib in Resources */,
+				6724512920162F4400772FD4 /* CordantSpirit_default.xcassets in Resources */,
+				6724512C20162F4400772FD4 /* Corporate_th_white.xcassets in Resources */,
 				6724505F20162E6200772FD4 /* LaunchScreen.storyboard in Resources */,
 				6724505C20162E6200772FD4 /* Assets.xcassets in Resources */,
+				6724513220162F4400772FD4 /* Strabag_default.xcassets in Resources */,
+				6724532320162F6900772FD4 /* PREConverseInitialDataViewController.xib in Resources */,
+				672452DD20162F6900772FD4 /* PREGoalContentTableViewController.xib in Resources */,
+				672452EA20162F6900772FD4 /* SectionHeaderView.xib in Resources */,
+				6724531E20162F6900772FD4 /* PREConverseInitialDataViewController.xib in Resources */,
+				672452E020162F6900772FD4 /* PREGoalTableViewCell.xib in Resources */,
+				6724512A20162F4400772FD4 /* Corporate_default.xcassets in Resources */,
+				6724512D20162F4400772FD4 /* Corporate_th_white_and_matisse_blue.xcassets in Resources */,
+				6724513320162F4400772FD4 /* WellCare_default.xcassets in Resources */,
+				672452DB20162F6900772FD4 /* PREGoalContentTableViewCell.xib in Resources */,
+				672452D920162F6900772FD4 /* PREComplianceTableViewViewController.xib in Resources */,
+				6724514120162F4400772FD4 /* PREParentBaseTableViewController.xib in Resources */,
+				6724512F20162F4400772FD4 /* DowJones_th_black.xcassets in Resources */,
+				6724512E20162F4400772FD4 /* DowJones_default.xcassets in Resources */,
+				6724513020162F4400772FD4 /* DowJones_th_white_and_firefly_blue.xcassets in Resources */,
+				672452E420162F6900772FD4 /* PREMainActionTableViewCell.xib in Resources */,
+				6724513120162F4400772FD4 /* Helvetia_default.xcassets in Resources */,
+				672452D320162F6900772FD4 /* LocalAppsAssets.xcassets in Resources */,
+				6724512820162F4400772FD4 /* Assets.xcassets in Resources */,
+				6724513F20162F4400772FD4 /* PREParentBaseTableViewCell.xib in Resources */,
+				6724513920162F4400772FD4 /* PREParentBaseCollectionViewCell.xib in Resources */,
+				6724512B20162F4400772FD4 /* Corporate_th_black.xcassets in Resources */,
+				672452D720162F6900772FD4 /* PREComplianceTableViewCell.xib in Resources */,
+				6724513720162F4400772FD4 /* PREParentBaseCollectionReusableView.xib in Resources */,
+				672452E220162F6900772FD4 /* PREMainActionGroupTableViewController.xib in Resources */,
+				6724513D20162F4400772FD4 /* PREParentBaseSplitViewController.xib in Resources */,
 				6724505720162E6200772FD4 /* Main.storyboard in Resources */,
+				672452EC20162F6900772FD4 /* Converse_default.xcassets in Resources */,
+				672452EB20162F6900772FD4 /* workplace.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,10 +2093,193 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				672452CF20162F6900772FD4 /* PREMenu.m in Sources */,
+				6724530720162F6900772FD4 /* PREConverseOperationNetworkManager.m in Sources */,
+				6724515220162F4500772FD4 /* PREThemeMainViewSettings.m in Sources */,
+				6724531620162F6900772FD4 /* PREConverseActionsModel.m in Sources */,
+				6724530220162F6900772FD4 /* PREConverseTestClient.m in Sources */,
+				6724515120162F4500772FD4 /* PREThemeTabBarSettings.m in Sources */,
+				6724515420162F4500772FD4 /* PREThemeMainViewSettingsBlackDJ.m in Sources */,
+				6724515D20162F4500772FD4 /* PREThemeToastViewSettings.m in Sources */,
+				672452F920162F6900772FD4 /* PREConverseActionResponse.m in Sources */,
+				6724531F20162F6900772FD4 /* PREConverseViewController.m in Sources */,
+				672452F220162F6900772FD4 /* PREConverseActionResponse_FAKE.m in Sources */,
+				6724515C20162F4500772FD4 /* PREThemeViewSettings.m in Sources */,
+				6724513C20162F4400772FD4 /* PREParentBaseSplitViewController.m in Sources */,
+				6724533F20162F6900772FD4 /* PREConverseOperationNetworkManager.m in Sources */,
+				6724516420162F4500772FD4 /* PREThemeCalendarViewSettingsWhiteAndGreenVidaLoca.m in Sources */,
+				6724533D20162F6900772FD4 /* PREConverseTestJSONRequest.m in Sources */,
+				672452F720162F6900772FD4 /* PREConverseDefaultNetworkClient_FAKE.m in Sources */,
+				672452CA20162F6900772FD4 /* PREInitialData.m in Sources */,
+				6724531520162F6900772FD4 /* PREConverseActionModel.m in Sources */,
+				6724534620162F6900772FD4 /* PREConverseAPIDownloadOperation.m in Sources */,
+				6724513520162F4400772FD4 /* PREParentBaseAlertViewController.m in Sources */,
+				6724532520162F6900772FD4 /* PREConverseAPIClient.m in Sources */,
+				6724534120162F6900772FD4 /* PREConverseOperationNetworkTestManager.m in Sources */,
+				6724532220162F6900772FD4 /* PREConverseInitialDataViewController.m in Sources */,
+				6724533B20162F6900772FD4 /* PREConverseTestNetworkClient.m in Sources */,
+				672452E320162F6900772FD4 /* PREMainActionTableViewCell.m in Sources */,
+				6724533320162F6900772FD4 /* PREConverseActionsResponse.m in Sources */,
+				6724534320162F6900772FD4 /* PREConverseTestOperationClient.m in Sources */,
+				6724534420162F6900772FD4 /* PREConverseAPIBaseOperation.m in Sources */,
+				6724530C20162F6900772FD4 /* PREConverseAPIBaseOperation.m in Sources */,
+				672452FA20162F6900772FD4 /* PREConverseActionsRequest.m in Sources */,
+				6724532120162F6900772FD4 /* PREConverseViewModel.m in Sources */,
+				672452DC20162F6900772FD4 /* PREGoalContentTableViewController.m in Sources */,
+				6724533C20162F6900772FD4 /* PREConverseTestRequest.m in Sources */,
+				6724513E20162F4400772FD4 /* PREParentBaseTableViewCell.m in Sources */,
+				6724534B20162F6900772FD4 /* PREConverseInitialDataOperation.m in Sources */,
+				672452E920162F6900772FD4 /* SectionHeaderView.m in Sources */,
+				672452CB20162F6900772FD4 /* PREItem.m in Sources */,
+				672452F820162F6900772FD4 /* PREConverseActionRequest.m in Sources */,
+				6724532F20162F6900772FD4 /* PREConverseDefaultNetworkClient_FAKE.m in Sources */,
+				672452F520162F6900772FD4 /* PREConverseInitialDataRequest_FAKE.m in Sources */,
+				6724516220162F4500772FD4 /* PREThemeCalendarViewSettingsWhiteAndBlueCerulean.m in Sources */,
+				672452F420162F6900772FD4 /* PREConverseActionsResponse_FAKE.m in Sources */,
+				6724514520162F4400772FD4 /* PREParentBaseViewController.m in Sources */,
+				6724513A20162F4400772FD4 /* PREParentBaseImagePickerController.m in Sources */,
+				6724514920162F4400772FD4 /* PREThemeContentsFactoryCorporateWhiteAndMatisseBlue.m in Sources */,
+				6724514620162F4400772FD4 /* PREThemeManager.m in Sources */,
+				6724514A20162F4400772FD4 /* PREThemeContentsFactoryDowJonesBlack.m in Sources */,
+				6724513B20162F4400772FD4 /* PREParentBaseNavigationController.m in Sources */,
+				6724515520162F4500772FD4 /* PREThemeMainViewSettingsWhite.m in Sources */,
+				6724514D20162F4500772FD4 /* PREThemeButtonSettings.m in Sources */,
+				672452C320162F6900772FD4 /* PREBACommand.m in Sources */,
+				6724531320162F6900772FD4 /* PREConverseInitialDataOperation.m in Sources */,
+				6724515320162F4500772FD4 /* PREThemeMainViewSettingsBlack.m in Sources */,
+				672452DE20162F6900772FD4 /* PREGoalsTableViewController.m in Sources */,
+				672452F120162F6900772FD4 /* PREConverseActionRequest_FAKE.m in Sources */,
+				672452CE20162F6900772FD4 /* PREMainActionGroup.m in Sources */,
+				6724532820162F6900772FD4 /* PREConverseAPIResponse.m in Sources */,
+				6724530B20162F6900772FD4 /* PREConverseTestOperationClient.m in Sources */,
+				6724532C20162F6900772FD4 /* PREConverseActionsResponse_FAKE.m in Sources */,
+				6724516D20162F4500772FD4 /* PREThemeCorporate.m in Sources */,
+				672452F020162F6900772FD4 /* PREConverseAPIResponse.m in Sources */,
+				672452FE20162F6900772FD4 /* PREConverseDefaultNetworkClient.m in Sources */,
+				6724514E20162F4500772FD4 /* PREThemeNavigationBarSettings.m in Sources */,
+				6724516720162F4500772FD4 /* PREThemeModeHelper.m in Sources */,
+				6724515E20162F4500772FD4 /* PREThemeToastViewSettingsWhite.m in Sources */,
+				6724531720162F6900772FD4 /* PREConverseInitialDataModel.m in Sources */,
+				6724515620162F4500772FD4 /* PREThemeMainViewSettingsWhiteAndBlueFirefly.m in Sources */,
+				6724533420162F6900772FD4 /* PREConverseInitialDataRequest.m in Sources */,
+				6724516E20162F4500772FD4 /* PREThemeDowJones.m in Sources */,
+				6724516520162F4500772FD4 /* PREThemeExclusiveTargetSettings.m in Sources */,
+				672452C520162F6900772FD4 /* PRECommand.m in Sources */,
+				672452D120162F6900772FD4 /* PREWorkplace.m in Sources */,
+				6724530D20162F6900772FD4 /* PREConverseAPIDataOperation.m in Sources */,
+				672452C820162F6900772FD4 /* PREGoal.m in Sources */,
+				6724514B20162F4400772FD4 /* PREThemeContentsFactoryDowJonesWhiteAndFireflyBlue.m in Sources */,
+				6724530920162F6900772FD4 /* PREConverseOperationNetworkTestManager.m in Sources */,
+				672452C620162F6900772FD4 /* PREField.m in Sources */,
+				672452D620162F6900772FD4 /* PREComplianceTableViewCell.m in Sources */,
+				6724533020162F6900772FD4 /* PREConverseActionRequest.m in Sources */,
+				6724515920162F4500772FD4 /* PREThemeCircleViewSettingsBlueCerulean.m in Sources */,
+				672452C120162F6900772FD4 /* PREActionWorkplace.m in Sources */,
+				6724534720162F6900772FD4 /* PREConverseAPIStreamOperation.m in Sources */,
+				6724532E20162F6900772FD4 /* PREConverseInitialDataResponse_FAKE.m in Sources */,
+				6724530420162F6900772FD4 /* PREConverseTestRequest.m in Sources */,
+				6724530320162F6900772FD4 /* PREConverseTestNetworkClient.m in Sources */,
+				6724516320162F4500772FD4 /* PREThemeCalendarViewSettingsWhiteAndBlueMatisse.m in Sources */,
+				672452D020162F6900772FD4 /* PREValidator.m in Sources */,
+				6724515F20162F4500772FD4 /* PREThemeCalendarViewSettings.m in Sources */,
+				672452D220162F6900772FD4 /* PREWorkplaceCommand.m in Sources */,
+				6724533A20162F6900772FD4 /* PREConverseTestClient.m in Sources */,
+				6724534920162F6900772FD4 /* PREConverseActionOperation.m in Sources */,
+				672452DF20162F6900772FD4 /* PREGoalTableViewCell.m in Sources */,
+				6724514720162F4400772FD4 /* PREThemeContentsFactoryCorporateBlack.m in Sources */,
+				6724533820162F6900772FD4 /* PREConverseDefaultRequestParameters.m in Sources */,
+				6724532020162F6900772FD4 /* PREConverseInitialDataViewModel.m in Sources */,
+				672452F620162F6900772FD4 /* PREConverseInitialDataResponse_FAKE.m in Sources */,
+				6724515B20162F4500772FD4 /* PREThemeCircleViewSettingsGray.m in Sources */,
+				6724531920162F6900772FD4 /* PRELocalAppManager.m in Sources */,
+				672452C220162F6900772FD4 /* PREAttribute.m in Sources */,
+				6724534220162F6900772FD4 /* PREConverseDefaultOperationClient.m in Sources */,
+				672452F320162F6900772FD4 /* PREConverseActionsRequest_FAKE.m in Sources */,
+				6724533720162F6900772FD4 /* PREConverseDefaultRequest.m in Sources */,
+				6724514820162F4400772FD4 /* PREThemeContentsFactoryCorporateWhite.m in Sources */,
+				6724516120162F4500772FD4 /* PREThemeCalendarViewSettingsBlackAndBlueViking.m in Sources */,
+				6724513820162F4400772FD4 /* PREParentBaseCollectionViewCell.m in Sources */,
+				6724532620162F6900772FD4 /* PREConverseAPIMethod.m in Sources */,
+				6724534C20162F6900772FD4 /* PREConverseTestJSONOperation.m in Sources */,
+				6724513420162F4400772FD4 /* PREColor.m in Sources */,
+				6724515720162F4500772FD4 /* PREThemeMainViewSettingsWhiteAndBlueMatisse.m in Sources */,
 				6724505420162E6200772FD4 /* ViewController.m in Sources */,
+				6724533620162F6900772FD4 /* PREConverseDefaultNetworkClient.m in Sources */,
+				6724515020162F4500772FD4 /* PREThemeSegmentedControlSettings.m in Sources */,
+				672452D820162F6900772FD4 /* PREComplianceTableViewViewController.m in Sources */,
 				6724505A20162E6200772FD4 /* TestApp.xcdatamodeld in Sources */,
+				6724532B20162F6900772FD4 /* PREConverseActionsRequest_FAKE.m in Sources */,
+				6724513620162F4400772FD4 /* PREParentBaseCollectionReusableView.m in Sources */,
+				6724531020162F6900772FD4 /* PREConverseAPIUploadOperation.m in Sources */,
+				6724530020162F6900772FD4 /* PREConverseDefaultRequestParameters.m in Sources */,
+				6724531820162F6900772FD4 /* PREConverseModel.m in Sources */,
+				6724531220162F6900772FD4 /* PREConverseActionsOperation.m in Sources */,
+				672452CC20162F6900772FD4 /* PREItemTemplate.m in Sources */,
+				672452D520162F6900772FD4 /* PRECommandViewController.m in Sources */,
+				6724532420162F6900772FD4 /* PREConverseViewController.m in Sources */,
+				6724531B20162F6900772FD4 /* PREConverseInitialDataViewModel.m in Sources */,
+				6724534020162F6900772FD4 /* PREConverseOperationQueueManager.m in Sources */,
+				672452C920162F6900772FD4 /* PREGroup.m in Sources */,
+				6724531120162F6900772FD4 /* PREConverseActionOperation.m in Sources */,
+				672452FB20162F6900772FD4 /* PREConverseActionsResponse.m in Sources */,
+				672452ED20162F6900772FD4 /* PREConverseAPIClient.m in Sources */,
+				672452EF20162F6900772FD4 /* PREConverseAPIRequest.m in Sources */,
+				6724533120162F6900772FD4 /* PREConverseActionResponse.m in Sources */,
+				6724516B20162F4500772FD4 /* PREThemeStoreDowJones.m in Sources */,
+				6724530520162F6900772FD4 /* PREConverseTestJSONRequest.m in Sources */,
+				6724515820162F4500772FD4 /* PREThemeCircleViewSettings.m in Sources */,
+				672452E120162F6900772FD4 /* PREMainActionGroupTableViewController.m in Sources */,
+				6724512620162F4400772FD4 /* NSInvocation+Copy.m in Sources */,
+				6724530F20162F6900772FD4 /* PREConverseAPIStreamOperation.m in Sources */,
+				672452FD20162F6900772FD4 /* PREConverseInitialDataResponse.m in Sources */,
+				6724533220162F6900772FD4 /* PREConverseActionsRequest.m in Sources */,
+				6724530A20162F6900772FD4 /* PREConverseDefaultOperationClient.m in Sources */,
+				6724516A20162F4500772FD4 /* PREThemeStoreCorporate.m in Sources */,
+				6724514020162F4400772FD4 /* PREParentBaseTableViewController.m in Sources */,
+				6724512720162F4400772FD4 /* PREAppearance.m in Sources */,
+				6724534820162F6900772FD4 /* PREConverseAPIUploadOperation.m in Sources */,
+				6724515A20162F4500772FD4 /* PREThemeCircleViewSettingsBlueMatisse.m in Sources */,
+				672452E620162F6900772FD4 /* PRESubActionTableViewCell.m in Sources */,
+				672452C420162F6900772FD4 /* PREBAObject.m in Sources */,
+				672452E820162F6900772FD4 /* PREWorkplaceViewController.m in Sources */,
+				6724514320162F4400772FD4 /* PREParentBaseTableViewHeaderView.m in Sources */,
+				6724530120162F6900772FD4 /* PREConverseDefaultResponse.m in Sources */,
+				6724533920162F6900772FD4 /* PREConverseDefaultResponse.m in Sources */,
 				6724506220162E6200772FD4 /* main.m in Sources */,
+				6724531C20162F6900772FD4 /* PREConverseViewModel.m in Sources */,
+				6724534A20162F6900772FD4 /* PREConverseActionsOperation.m in Sources */,
+				672452E520162F6900772FD4 /* PRESimpleFormViewController.m in Sources */,
+				6724531D20162F6900772FD4 /* PREConverseInitialDataViewController.m in Sources */,
+				6724516020162F4500772FD4 /* PREThemeCalendarViewSettingsBlackAndBlueCerulean.m in Sources */,
+				6724531A20162F6900772FD4 /* PRELocalAppRequestManager.m in Sources */,
+				6724514C20162F4500772FD4 /* PREThemeSwitchSettings.m in Sources */,
+				6724530820162F6900772FD4 /* PREConverseOperationQueueManager.m in Sources */,
+				6724532A20162F6900772FD4 /* PREConverseActionResponse_FAKE.m in Sources */,
+				6724532920162F6900772FD4 /* PREConverseActionRequest_FAKE.m in Sources */,
+				672452FF20162F6900772FD4 /* PREConverseDefaultRequest.m in Sources */,
+				6724516620162F4500772FD4 /* PREThemeExclusiveTargetSettingsDowJones.m in Sources */,
+				672452C720162F6900772FD4 /* PREForm.m in Sources */,
+				6724514220162F4400772FD4 /* PREParentBaseTableViewFooterView.m in Sources */,
+				672452EE20162F6900772FD4 /* PREConverseAPIMethod.m in Sources */,
+				672452CD20162F6900772FD4 /* PREMainAction.m in Sources */,
+				6724533E20162F6900772FD4 /* PREConverseTestJSONResponse.m in Sources */,
+				6724533520162F6900772FD4 /* PREConverseInitialDataResponse.m in Sources */,
+				6724514F20162F4500772FD4 /* PREThemePageControlSettings.m in Sources */,
+				6724532D20162F6900772FD4 /* PREConverseInitialDataRequest_FAKE.m in Sources */,
+				672452DA20162F6900772FD4 /* PREGoalContentTableViewCell.m in Sources */,
 				6724505120162E6200772FD4 /* AppDelegate.m in Sources */,
+				672452FC20162F6900772FD4 /* PREConverseInitialDataRequest.m in Sources */,
+				672452D420162F6900772FD4 /* PREActionDetailsViewController.m in Sources */,
+				6724514420162F4400772FD4 /* PREParentBaseTableViewSectionView.m in Sources */,
+				672452C020162F6900772FD4 /* PREAction.m in Sources */,
+				6724516C20162F4500772FD4 /* PRETheme.m in Sources */,
+				6724531420162F6900772FD4 /* PREConverseTestJSONOperation.m in Sources */,
+				6724530E20162F6900772FD4 /* PREConverseAPIDownloadOperation.m in Sources */,
+				6724530620162F6900772FD4 /* PREConverseTestJSONResponse.m in Sources */,
+				6724516820162F4500772FD4 /* PREThemeStoreHelper.m in Sources */,
+				6724534520162F6900772FD4 /* PREConverseAPIDataOperation.m in Sources */,
+				6724516920162F4500772FD4 /* PREThemeStore.m in Sources */,
+				6724532720162F6900772FD4 /* PREConverseAPIRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
